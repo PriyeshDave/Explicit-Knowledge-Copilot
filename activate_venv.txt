@@ -1,0 +1,3 @@
+source /Users/apple/Documents/Priyesh/VirtualEnvs/data_copilot_venv/bin/activate
+source /Users/apple/Documents/Priyesh/VirtualEnvs/colleague_onboarding_venv/bin/activate
+https://www.canva.com/design/DAGQtt5vB3E/DnL0vWkVGbTKEYpg36Ik_Q/watch?utm_content=DAGQtt5vB3E&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel

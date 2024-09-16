@@ -1,0 +1,1 @@
+source /Users/ishadave/Documents/Priyesh/Softwares/genai_venv/bin/activate
