@@ -1,0 +1,221 @@
+asset_id,asset_type,asset_status,laptop_model,manufacturer,assigned_to,assignment_date,operating_system,processor_type,ram_size,storage_size,last_service_date,next_service_due_date,repair_history,end_of_life_date,replacement_recommendation,asset_utilisation_score,incident_count
+7FF6Z91E,laptop,assigned,lenovo ideapad,lenovo,1001,2023-02-13,windows 10,intel core i7,32 gb,512 gb ssd,2024-01-17,2024-05-30,minor repairs,2025-05-24,no replacement needed,0.58,8
+OJPFK4LY,laptop,assigned,macbook air,apple,1002,2023-05-09,macos big sur,amd ryzen 5,8 gb,512 gb ssd,2024-01-18,2024-05-27,major repairs,2025-07-08,replace soon,0.88,5
+W5V6VGW0,laptop,in repair,hp pavilion,hp,1003,2023-05-13,ubuntu 20.04,intel core i5,8 gb,512 gb ssd,2024-02-01,2024-05-17,minor repairs,2025-03-17,replace soon,0.93,4
+3H3C1DQS,laptop,assigned,macbook pro,apple,1004,2023-04-30,macos big sur,amd ryzen 5,32 gb,512 gb ssd,2024-01-13,2024-05-18,major repairs,2025-09-10,replace soon,0.57,4
+AASC41BG,laptop,assigned,lenovo ideapad,lenovo,1005,2023-05-03,ubuntu 20.04,intel core i7,8 gb,256 gb ssd,2024-01-06,2024-05-29,minor repairs,2025-11-28,no replacement needed,0.72,9
+0SUPA3WT,laptop,retired,dell inspiron,dell,1006,2023-04-20,windows 10,amd ryzen 5,8 gb,1 tb hdd,2024-01-31,2024-05-27,minor repairs,2025-01-15,no replacement needed,0.7,7
+4QAVKFKI,laptop,in repair,macbook air,apple,1007,2023-03-03,macos big sur,intel core i5,32 gb,256 gb ssd,2024-01-05,2024-05-18,no repairs,2025-04-08,replace soon,0.76,6
+684O8KUB,laptop,retired,macbook air,apple,1008,2023-04-13,windows 10,intel core i5,32 gb,512 gb ssd,2024-01-13,2024-05-03,minor repairs,2025-06-13,replace soon,0.56,1
+OBBZD9DQ,laptop,assigned,dell inspiron,dell,1009,2023-02-08,macos big sur,intel core i7,32 gb,256 gb ssd,2024-01-22,2024-05-15,no repairs,2025-05-01,no replacement needed,0.67,6
+F19ABELK,laptop,in repair,macbook air,apple,1010,2023-02-02,macos big sur,intel core i7,32 gb,512 gb ssd,2024-01-09,2024-05-14,major repairs,2025-12-28,no replacement needed,0.91,3
+XRTV48EG,laptop,assigned,macbook air,apple,1011,2023-02-11,windows 10,intel core i7,32 gb,1 tb hdd,2024-01-24,2024-05-20,major repairs,2025-01-06,replace soon,0.64,3
+I92OLJV2,laptop,assigned,dell inspiron,dell,1012,2023-04-12,ubuntu 20.04,intel core i7,32 gb,1 tb hdd,2024-01-12,2024-05-18,minor repairs,2025-05-20,no replacement needed,0.84,5
+83YKUG27,laptop,retired,lenovo ideapad,lenovo,1013,2023-01-27,macos big sur,amd ryzen 5,16 gb,1 tb hdd,2024-01-02,2024-05-28,no repairs,2025-03-30,replace soon,0.55,1
+42BMG5JC,laptop,in repair,hp pavilion,hp,1014,2023-02-18,ubuntu 20.04,intel core i7,8 gb,1 tb hdd,2024-01-12,2024-05-01,no repairs,2025-11-01,replace soon,0.79,0
+4T15NIIM,laptop,retired,lenovo ideapad,lenovo,1015,2023-02-11,ubuntu 20.04,amd ryzen 5,16 gb,256 gb ssd,2024-01-25,2024-05-10,major repairs,2025-11-10,no replacement needed,0.63,5
+EBV4YXDB,laptop,assigned,macbook pro,apple,1016,2023-02-17,ubuntu 20.04,intel core i5,16 gb,512 gb ssd,2024-01-27,2024-05-24,no repairs,2025-04-11,no replacement needed,0.8,8
+17UC66LQ,laptop,assigned,macbook air,apple,1017,2023-03-09,windows 10,amd ryzen 5,8 gb,256 gb ssd,2024-01-07,2024-05-28,no repairs,2025-02-27,replace soon,0.81,5
+0MCMMGS1,laptop,retired,lenovo ideapad,lenovo,1018,2023-02-19,windows 10,intel core i7,16 gb,1 tb hdd,2024-01-06,2024-05-22,minor repairs,2025-09-17,no replacement needed,0.65,3
+3U4GW81Y,laptop,assigned,dell inspiron,dell,1019,2023-01-26,windows 10,intel core i7,8 gb,512 gb ssd,2024-01-13,2024-05-30,minor repairs,2025-11-06,replace soon,0.63,5
+3JGUY7ZS,laptop,retired,lenovo ideapad,lenovo,1020,2023-05-30,windows 10,intel core i5,8 gb,256 gb ssd,2024-01-04,2024-05-19,major repairs,2025-11-12,replace soon,0.91,7
+2OTH318E,laptop,assigned,lenovo ideapad,lenovo,1021,2023-03-16,macos big sur,amd ryzen 5,8 gb,512 gb ssd,2024-01-10,2024-05-14,minor repairs,2025-12-05,replace soon,0.65,0
+5QTM2DY8,laptop,in repair,lenovo ideapad,lenovo,1022,2023-04-04,ubuntu 20.04,intel core i7,16 gb,256 gb ssd,2024-01-17,2024-05-21,no repairs,2025-06-05,replace soon,0.59,2
+8FGKNMP4,laptop,in repair,lenovo ideapad,lenovo,1023,2023-03-25,ubuntu 20.04,amd ryzen 5,16 gb,1 tb hdd,2024-01-18,2024-05-19,no repairs,2025-07-27,replace soon,0.65,9
+7JGTXIBL,laptop,assigned,lenovo ideapad,lenovo,1024,2023-06-01,ubuntu 20.04,amd ryzen 5,8 gb,1 tb hdd,2024-01-22,2024-05-30,major repairs,2025-05-02,replace soon,0.97,3
+OELUCHQU,laptop,assigned,macbook pro,apple,1025,2023-02-14,ubuntu 20.04,intel core i5,16 gb,256 gb ssd,2024-01-14,2024-05-26,major repairs,2025-10-10,no replacement needed,0.85,0
+QMLINDLX,laptop,in repair,lenovo ideapad,lenovo,1026,2023-04-08,ubuntu 20.04,amd ryzen 5,8 gb,512 gb ssd,2024-01-04,2024-05-11,major repairs,2025-12-01,no replacement needed,0.91,5
+Z7440VOL,laptop,assigned,macbook air,apple,1027,2023-02-21,windows 10,intel core i7,16 gb,1 tb hdd,2024-01-13,2024-05-27,minor repairs,2025-05-10,no replacement needed,0.8,2
+BCS8YOH6,laptop,assigned,macbook pro,apple,1028,2023-05-11,ubuntu 20.04,intel core i5,32 gb,256 gb ssd,2024-01-20,2024-05-25,major repairs,2025-11-09,replace soon,0.63,9
+OFM04QES,laptop,retired,hp pavilion,hp,1029,2023-05-30,macos big sur,intel core i5,8 gb,1 tb hdd,2024-01-26,2024-05-21,major repairs,2025-05-06,replace soon,0.8,9
+AIB2G5DU,laptop,retired,lenovo ideapad,lenovo,1030,2023-02-10,ubuntu 20.04,intel core i5,16 gb,256 gb ssd,2024-01-31,2024-05-08,minor repairs,2025-05-20,replace soon,0.91,4
+PRJ3NIAD,laptop,retired,dell inspiron,dell,1031,2023-01-15,ubuntu 20.04,intel core i7,32 gb,512 gb ssd,2024-01-28,2024-05-21,minor repairs,2025-09-14,replace soon,0.62,3
+631BDAFM,laptop,in repair,macbook pro,apple,1032,2023-04-08,ubuntu 20.04,amd ryzen 5,16 gb,512 gb ssd,2024-01-04,2024-05-24,minor repairs,2025-02-28,no replacement needed,0.61,9
+DLUSHGBC,laptop,assigned,dell inspiron,dell,1033,2023-05-16,macos big sur,amd ryzen 5,8 gb,512 gb ssd,2024-01-21,2024-05-10,major repairs,2025-04-19,no replacement needed,0.98,4
+OCW2QP0W,laptop,assigned,lenovo ideapad,lenovo,1034,2023-03-19,macos big sur,amd ryzen 5,32 gb,1 tb hdd,2024-01-23,2024-05-13,no repairs,2025-09-17,replace soon,0.69,7
+HKNQH648,laptop,in repair,hp pavilion,hp,1035,2023-01-31,macos big sur,intel core i5,16 gb,512 gb ssd,2024-01-11,2024-05-03,major repairs,2025-06-05,no replacement needed,0.51,8
+RPLD01VO,laptop,in repair,lenovo ideapad,lenovo,1036,2023-03-07,ubuntu 20.04,amd ryzen 5,16 gb,256 gb ssd,2024-01-07,2024-05-20,major repairs,2025-11-20,no replacement needed,0.58,3
+B1XWRZUB,laptop,retired,lenovo ideapad,lenovo,1037,2023-05-23,windows 10,amd ryzen 5,16 gb,1 tb hdd,2024-01-20,2024-05-30,no repairs,2025-02-23,replace soon,0.91,8
+IRSQ2VBA,laptop,in repair,macbook pro,apple,1038,2023-02-21,windows 10,intel core i5,8 gb,256 gb ssd,2024-02-01,2024-05-18,no repairs,2025-02-16,no replacement needed,0.6,4
+WQRTNX1W,laptop,retired,hp pavilion,hp,1039,2023-04-27,ubuntu 20.04,intel core i5,32 gb,256 gb ssd,2024-01-20,2024-05-10,major repairs,2025-02-11,no replacement needed,0.69,2
+GDXFM8I4,laptop,in repair,macbook air,apple,1040,2023-04-19,ubuntu 20.04,intel core i5,8 gb,1 tb hdd,2024-01-07,2024-05-04,major repairs,2025-10-19,no replacement needed,1.0,6
+2KZ7OOKD,laptop,in repair,macbook pro,apple,1041,2023-03-08,ubuntu 20.04,amd ryzen 5,16 gb,256 gb ssd,2024-01-27,2024-05-12,minor repairs,2025-06-21,replace soon,0.97,4
+JUV3763O,laptop,in repair,macbook air,apple,1042,2023-04-20,ubuntu 20.04,amd ryzen 5,8 gb,512 gb ssd,2024-01-25,2024-05-09,minor repairs,2025-10-18,replace soon,0.82,1
+IFMR59IH,laptop,assigned,dell inspiron,dell,1043,2023-01-05,windows 10,amd ryzen 5,8 gb,512 gb ssd,2024-01-30,2024-05-25,no repairs,2025-05-25,no replacement needed,0.91,0
+Q7VILIMU,laptop,assigned,dell inspiron,dell,1044,2023-04-02,windows 10,intel core i5,16 gb,1 tb hdd,2024-01-07,2024-05-30,no repairs,2025-06-01,no replacement needed,0.69,4
+ANKOKATO,laptop,in repair,macbook air,apple,1045,2023-04-01,ubuntu 20.04,intel core i5,8 gb,256 gb ssd,2024-01-19,2024-05-27,no repairs,2025-02-14,replace soon,0.8,1
+WUH4N310,laptop,retired,dell inspiron,dell,1046,2023-04-26,ubuntu 20.04,intel core i7,8 gb,512 gb ssd,2024-01-15,2024-05-26,major repairs,2025-04-18,no replacement needed,0.75,7
+DKFCEJUS,laptop,retired,macbook pro,apple,1047,2023-03-26,windows 10,amd ryzen 5,32 gb,512 gb ssd,2024-01-22,2024-05-02,minor repairs,2025-08-27,no replacement needed,0.89,1
+6WRC4PJV,laptop,retired,macbook air,apple,1048,2023-04-27,ubuntu 20.04,intel core i5,8 gb,1 tb hdd,2024-01-02,2024-05-22,no repairs,2025-07-04,replace soon,0.94,1
+XNBPOBU7,laptop,assigned,lenovo ideapad,lenovo,1049,2023-04-01,ubuntu 20.04,intel core i5,16 gb,1 tb hdd,2024-01-03,2024-05-29,no repairs,2025-12-09,replace soon,0.96,5
+74H154UR,laptop,retired,macbook air,apple,1050,2023-03-07,windows 10,intel core i5,8 gb,512 gb ssd,2024-01-16,2024-05-02,major repairs,2025-12-16,replace soon,0.8,4
+XOAFJ5HD,laptop,assigned,macbook pro,apple,1051,2023-04-15,ubuntu 20.04,intel core i7,32 gb,512 gb ssd,2024-02-01,2024-05-31,major repairs,2025-04-14,replace soon,0.58,0
+YHK2AC4C,laptop,assigned,macbook air,apple,1052,2023-05-30,windows 10,intel core i5,8 gb,256 gb ssd,2024-01-11,2024-05-08,minor repairs,2025-03-03,no replacement needed,0.74,4
+RPKSWZZN,laptop,in repair,dell inspiron,dell,1053,2023-04-16,ubuntu 20.04,intel core i7,16 gb,1 tb hdd,2024-01-08,2024-05-12,minor repairs,2025-12-15,replace soon,1.0,8
+GLHO1L5E,laptop,retired,macbook air,apple,1054,2023-04-21,windows 10,intel core i5,8 gb,1 tb hdd,2024-01-29,2024-05-21,no repairs,2025-04-21,replace soon,0.94,8
+R47CB1UA,laptop,in repair,hp pavilion,hp,1055,2023-05-21,windows 10,intel core i5,16 gb,1 tb hdd,2024-01-21,2024-05-15,minor repairs,2025-05-31,replace soon,0.52,1
+JGBI0WSI,laptop,retired,lenovo ideapad,lenovo,1056,2023-04-01,ubuntu 20.04,intel core i7,16 gb,512 gb ssd,2024-01-02,2024-05-09,major repairs,2025-02-28,no replacement needed,0.84,5
+JEZS8HKI,laptop,assigned,macbook air,apple,1057,2023-01-22,windows 10,amd ryzen 5,8 gb,1 tb hdd,2024-01-16,2024-05-30,minor repairs,2025-08-18,no replacement needed,0.73,0
+BO2O3CS4,laptop,in repair,macbook pro,apple,1058,2023-03-02,macos big sur,intel core i7,8 gb,512 gb ssd,2024-01-04,2024-05-28,minor repairs,2025-03-27,no replacement needed,0.53,3
+QZGEIYJZ,laptop,retired,hp pavilion,hp,1059,2023-03-18,windows 10,intel core i7,32 gb,256 gb ssd,2024-01-12,2024-06-01,minor repairs,2025-12-09,replace soon,0.57,7
+ZVQ1FPIN,laptop,in repair,hp pavilion,hp,1060,2023-04-24,macos big sur,intel core i7,32 gb,512 gb ssd,2024-01-28,2024-05-18,no repairs,2025-04-02,no replacement needed,1.0,2
+11GQP1SH,laptop,in repair,lenovo ideapad,lenovo,1061,2023-05-28,windows 10,intel core i7,32 gb,512 gb ssd,2024-01-08,2024-05-30,no repairs,2025-06-05,no replacement needed,0.68,5
+KR04FNWT,laptop,in repair,macbook air,apple,1062,2023-04-13,ubuntu 20.04,intel core i5,32 gb,1 tb hdd,2024-01-04,2024-05-17,minor repairs,2025-06-22,no replacement needed,0.81,9
+5LSTFZA9,laptop,retired,macbook pro,apple,1063,2023-01-12,ubuntu 20.04,amd ryzen 5,8 gb,512 gb ssd,2024-01-13,2024-05-27,major repairs,2025-01-05,replace soon,0.85,2
+AY5QPVG0,laptop,retired,macbook air,apple,1064,2023-01-10,windows 10,intel core i7,16 gb,1 tb hdd,2024-01-22,2024-05-28,no repairs,2025-06-27,no replacement needed,0.85,5
+EFE4UGHJ,laptop,assigned,lenovo ideapad,lenovo,1065,2023-03-22,ubuntu 20.04,intel core i7,16 gb,1 tb hdd,2024-01-05,2024-05-20,minor repairs,2025-05-16,no replacement needed,0.92,8
+EQLKN260,laptop,in repair,macbook air,apple,1066,2023-05-09,macos big sur,intel core i7,16 gb,256 gb ssd,2024-01-05,2024-05-20,major repairs,2025-07-16,no replacement needed,0.89,6
+5JY1H5OA,laptop,assigned,dell inspiron,dell,1067,2023-01-10,windows 10,intel core i7,16 gb,512 gb ssd,2024-01-13,2024-05-07,no repairs,2025-10-28,no replacement needed,0.98,3
+71XM93OU,laptop,assigned,dell inspiron,dell,1068,2023-03-11,windows 10,amd ryzen 5,8 gb,256 gb ssd,2024-01-07,2024-05-28,no repairs,2025-12-13,no replacement needed,0.51,7
+LUIKK7R4,laptop,assigned,hp pavilion,hp,1069,2023-05-17,macos big sur,intel core i5,16 gb,512 gb ssd,2024-01-09,2024-05-22,no repairs,2025-07-05,replace soon,0.86,7
+7AYE4XDA,laptop,assigned,lenovo ideapad,lenovo,1070,2023-03-25,macos big sur,intel core i5,8 gb,256 gb ssd,2024-01-12,2024-05-12,major repairs,2025-06-07,replace soon,0.6,3
+EPADVWTX,laptop,retired,hp pavilion,hp,1071,2023-05-17,macos big sur,intel core i5,32 gb,1 tb hdd,2024-01-30,2024-05-06,minor repairs,2025-07-16,replace soon,0.83,4
+X2AIQ7I5,laptop,assigned,macbook air,apple,1072,2023-04-12,windows 10,intel core i5,16 gb,256 gb ssd,2024-01-24,2024-06-01,no repairs,2025-09-18,no replacement needed,0.56,6
+JKTH3C93,laptop,assigned,macbook air,apple,1073,2023-04-13,ubuntu 20.04,intel core i5,32 gb,256 gb ssd,2024-01-16,2024-05-04,major repairs,2025-06-05,no replacement needed,0.67,1
+OVB1RVUU,laptop,in repair,dell inspiron,dell,1074,2023-02-14,macos big sur,amd ryzen 5,8 gb,256 gb ssd,2024-01-24,2024-05-28,major repairs,2025-10-25,replace soon,0.86,2
+QCFNUJK0,laptop,retired,macbook air,apple,1075,2023-04-21,macos big sur,amd ryzen 5,32 gb,1 tb hdd,2024-01-01,2024-05-24,no repairs,2025-05-19,no replacement needed,0.6,9
+D6YF3PFW,laptop,assigned,dell inspiron,dell,1076,2023-01-30,ubuntu 20.04,intel core i5,8 gb,256 gb ssd,2024-01-26,2024-05-08,major repairs,2025-09-14,replace soon,0.84,1
+A161QFBV,laptop,in repair,dell inspiron,dell,1077,2023-01-17,windows 10,amd ryzen 5,32 gb,512 gb ssd,2024-01-24,2024-05-10,minor repairs,2025-09-11,no replacement needed,0.54,1
+10G8NOU8,laptop,in repair,macbook pro,apple,1078,2023-04-17,ubuntu 20.04,intel core i5,8 gb,256 gb ssd,2024-01-13,2024-05-13,no repairs,2025-09-09,replace soon,0.54,5
+RFWR3M2G,laptop,retired,macbook air,apple,1079,2023-04-30,macos big sur,intel core i7,8 gb,256 gb ssd,2024-01-31,2024-05-11,major repairs,2025-12-18,replace soon,0.81,2
+E7AS07ZM,laptop,assigned,macbook pro,apple,1080,2023-05-20,windows 10,intel core i7,32 gb,512 gb ssd,2024-01-28,2024-05-15,major repairs,2025-10-19,no replacement needed,0.97,9
+7NC4ZS9L,laptop,in repair,hp pavilion,hp,1081,2023-06-01,macos big sur,intel core i7,8 gb,1 tb hdd,2024-01-06,2024-05-30,no repairs,2025-04-01,replace soon,0.67,3
+QV0V7NIG,laptop,in repair,macbook air,apple,1082,2023-03-25,macos big sur,amd ryzen 5,8 gb,256 gb ssd,2024-01-02,2024-05-27,major repairs,2025-08-23,no replacement needed,0.56,6
+XHMNH5NU,laptop,retired,lenovo ideapad,lenovo,1083,2023-02-17,windows 10,amd ryzen 5,32 gb,1 tb hdd,2024-01-23,2024-05-31,minor repairs,2025-08-24,no replacement needed,0.65,6
+HTFJV68V,laptop,retired,macbook pro,apple,1084,2023-01-28,ubuntu 20.04,intel core i7,8 gb,512 gb ssd,2024-01-05,2024-05-13,minor repairs,2025-04-03,no replacement needed,0.57,8
+VIDG9KOX,laptop,in repair,hp pavilion,hp,1085,2023-01-30,windows 10,intel core i5,16 gb,512 gb ssd,2024-01-24,2024-05-15,no repairs,2025-08-24,replace soon,0.98,7
+UO307BH6,laptop,assigned,macbook air,apple,1086,2023-03-01,macos big sur,amd ryzen 5,16 gb,1 tb hdd,2024-01-18,2024-05-12,minor repairs,2025-04-24,no replacement needed,0.9,5
+UZAMBC1F,laptop,assigned,macbook pro,apple,1087,2023-01-22,windows 10,intel core i7,8 gb,512 gb ssd,2024-01-22,2024-05-29,major repairs,2025-08-06,replace soon,0.62,5
+8E7B7GVF,laptop,retired,hp pavilion,hp,1088,2023-03-10,windows 10,amd ryzen 5,16 gb,1 tb hdd,2024-01-08,2024-05-31,no repairs,2025-09-30,replace soon,1.0,6
+9XNOF42O,laptop,in repair,lenovo ideapad,lenovo,1089,2023-04-23,windows 10,intel core i7,8 gb,1 tb hdd,2024-01-18,2024-05-19,minor repairs,2025-02-13,no replacement needed,0.9,0
+4AX0DOZQ,laptop,assigned,lenovo ideapad,lenovo,1090,2023-03-25,ubuntu 20.04,intel core i7,8 gb,1 tb hdd,2024-01-19,2024-06-01,no repairs,2025-07-08,no replacement needed,0.95,2
+W46H19UY,laptop,retired,macbook pro,apple,1091,2023-04-29,macos big sur,intel core i7,8 gb,256 gb ssd,2024-01-08,2024-05-23,no repairs,2025-12-02,no replacement needed,0.9,9
+8WZIWKSN,laptop,retired,macbook air,apple,1092,2023-01-18,macos big sur,intel core i5,32 gb,256 gb ssd,2024-01-19,2024-05-23,no repairs,2025-10-13,replace soon,0.53,6
+8R6C12AT,laptop,assigned,macbook air,apple,1093,2023-02-13,ubuntu 20.04,amd ryzen 5,32 gb,512 gb ssd,2024-01-26,2024-05-11,no repairs,2025-03-13,no replacement needed,0.95,1
+BMI8COAN,laptop,retired,macbook air,apple,1094,2023-04-05,macos big sur,intel core i5,32 gb,512 gb ssd,2024-01-08,2024-05-31,no repairs,2025-05-01,replace soon,0.74,2
+3N9OARHE,laptop,assigned,macbook pro,apple,1095,2023-02-15,ubuntu 20.04,amd ryzen 5,8 gb,512 gb ssd,2024-01-27,2024-05-17,no repairs,2025-04-30,no replacement needed,0.94,7
+E0BY7YUX,laptop,in repair,macbook pro,apple,1096,2023-02-02,macos big sur,amd ryzen 5,32 gb,1 tb hdd,2024-01-05,2024-05-30,major repairs,2025-10-26,no replacement needed,0.69,5
+AJ2FXVST,laptop,in repair,hp pavilion,hp,1097,2023-01-23,windows 10,amd ryzen 5,16 gb,1 tb hdd,2024-01-22,2024-05-13,major repairs,2025-10-31,no replacement needed,0.66,9
+Z0QU0GBV,laptop,in repair,macbook air,apple,1098,2023-01-28,macos big sur,intel core i5,8 gb,256 gb ssd,2024-01-07,2024-06-01,no repairs,2025-01-05,no replacement needed,0.58,3
+UQV9B4UL,laptop,in repair,hp pavilion,hp,1099,2023-03-23,macos big sur,amd ryzen 5,32 gb,1 tb hdd,2024-01-19,2024-05-06,major repairs,2025-07-04,replace soon,0.52,8
+V2UKTYCC,laptop,in repair,macbook pro,apple,1100,2023-03-11,macos big sur,amd ryzen 5,16 gb,1 tb hdd,2024-01-18,2024-05-24,major repairs,2025-05-28,no replacement needed,0.99,8
+N87MD6RP,laptop,assigned,macbook pro,apple,1101,2023-01-11,windows 10,amd ryzen 5,16 gb,1 tb hdd,2024-01-23,2024-05-13,minor repairs,2025-05-29,no replacement needed,0.75,5
+LPKOFBCD,laptop,assigned,macbook pro,apple,1102,2023-04-22,windows 10,intel core i7,8 gb,512 gb ssd,2024-01-10,2024-05-01,major repairs,2025-05-14,replace soon,0.92,2
+R6S98FAX,laptop,in repair,macbook pro,apple,1103,2023-02-03,windows 10,intel core i7,32 gb,1 tb hdd,2024-01-25,2024-05-19,major repairs,2025-06-16,no replacement needed,0.94,9
+7KNNEDR1,laptop,assigned,dell inspiron,dell,1104,2023-04-09,macos big sur,intel core i7,32 gb,256 gb ssd,2024-01-30,2024-05-05,major repairs,2025-05-06,no replacement needed,0.73,7
+V5WCP2CT,laptop,assigned,hp pavilion,hp,1105,2023-05-13,macos big sur,intel core i5,16 gb,1 tb hdd,2024-01-28,2024-05-31,no repairs,2025-12-14,replace soon,0.62,5
+4DEN4NB0,laptop,assigned,lenovo ideapad,lenovo,1106,2023-02-12,windows 10,intel core i5,32 gb,1 tb hdd,2024-01-04,2024-05-07,minor repairs,2025-05-20,no replacement needed,0.52,7
+X1WNKBP3,laptop,assigned,lenovo ideapad,lenovo,1107,2023-03-16,windows 10,intel core i5,8 gb,1 tb hdd,2024-01-03,2024-05-23,major repairs,2025-01-10,replace soon,0.62,0
+7A1EKTA7,laptop,in repair,lenovo ideapad,lenovo,1108,2023-05-07,windows 10,intel core i5,32 gb,256 gb ssd,2024-01-16,2024-05-11,major repairs,2025-08-01,no replacement needed,0.72,3
+LMQDV9SE,laptop,in repair,macbook air,apple,1109,2023-05-30,windows 10,intel core i7,8 gb,256 gb ssd,2024-01-07,2024-05-26,no repairs,2025-03-25,replace soon,0.68,7
+V4YALAZM,laptop,in repair,macbook pro,apple,1110,2023-05-03,ubuntu 20.04,amd ryzen 5,16 gb,1 tb hdd,2024-01-25,2024-05-20,minor repairs,2025-06-02,replace soon,0.95,1
+6KP01F9H,laptop,retired,macbook pro,apple,1111,2023-02-04,macos big sur,intel core i7,16 gb,1 tb hdd,2024-01-01,2024-05-05,no repairs,2025-07-28,no replacement needed,0.63,1
+5O4JHVR4,laptop,assigned,macbook pro,apple,1112,2023-05-18,macos big sur,intel core i7,16 gb,1 tb hdd,2024-01-04,2024-05-23,no repairs,2025-10-31,no replacement needed,0.94,2
+31KI5VAA,laptop,assigned,lenovo ideapad,lenovo,1113,2023-05-13,macos big sur,amd ryzen 5,16 gb,1 tb hdd,2024-01-03,2024-05-02,major repairs,2025-03-10,no replacement needed,0.99,5
+N12JY815,laptop,assigned,dell inspiron,dell,1114,2023-03-14,windows 10,amd ryzen 5,32 gb,1 tb hdd,2024-01-27,2024-05-29,minor repairs,2025-08-13,replace soon,0.96,5
+FK52M78G,laptop,retired,dell inspiron,dell,1115,2023-05-23,macos big sur,intel core i5,16 gb,512 gb ssd,2024-01-20,2024-05-14,minor repairs,2025-03-31,no replacement needed,0.98,8
+MP2QVQUX,laptop,assigned,macbook air,apple,1116,2023-02-20,ubuntu 20.04,intel core i7,8 gb,512 gb ssd,2024-01-15,2024-05-30,major repairs,2025-09-14,replace soon,0.78,8
+NTP16J9I,laptop,retired,lenovo ideapad,lenovo,1117,2023-02-05,windows 10,intel core i7,16 gb,512 gb ssd,2024-01-01,2024-05-08,minor repairs,2025-06-08,replace soon,0.77,1
+9X18Y99M,laptop,retired,macbook pro,apple,1118,2023-05-28,ubuntu 20.04,intel core i7,8 gb,256 gb ssd,2024-01-27,2024-05-31,major repairs,2025-01-01,replace soon,0.75,4
+2ONK57H2,laptop,in repair,dell inspiron,dell,1119,2023-03-25,ubuntu 20.04,amd ryzen 5,32 gb,512 gb ssd,2024-01-01,2024-05-19,minor repairs,2025-09-20,no replacement needed,0.8,3
+YHJIQZW0,laptop,in repair,lenovo ideapad,lenovo,1120,2023-01-08,macos big sur,intel core i5,32 gb,512 gb ssd,2024-01-23,2024-05-16,no repairs,2025-07-10,replace soon,0.66,6
+M8CFDRNV,laptop,assigned,macbook air,apple,1121,2023-05-04,windows 10,intel core i7,8 gb,512 gb ssd,2024-02-01,2024-05-14,major repairs,2025-12-29,no replacement needed,0.88,4
+S7ZWDNME,laptop,retired,macbook pro,apple,1122,2023-01-01,macos big sur,intel core i5,32 gb,1 tb hdd,2024-01-13,2024-05-08,minor repairs,2025-11-03,replace soon,0.56,5
+QA4IQKY0,laptop,in repair,hp pavilion,hp,1123,2023-04-11,ubuntu 20.04,intel core i5,16 gb,512 gb ssd,2024-01-11,2024-05-01,no repairs,2025-08-17,no replacement needed,0.6,5
+UOCRM5A4,laptop,in repair,macbook air,apple,1124,2023-04-18,macos big sur,amd ryzen 5,16 gb,1 tb hdd,2024-01-19,2024-05-10,major repairs,2025-09-20,no replacement needed,0.52,9
+IJKL72IN,laptop,retired,macbook pro,apple,1125,2023-04-29,macos big sur,amd ryzen 5,8 gb,1 tb hdd,2024-01-28,2024-05-10,minor repairs,2025-07-08,no replacement needed,0.59,0
+YN43XCGP,laptop,in repair,dell inspiron,dell,1126,2023-02-27,macos big sur,amd ryzen 5,16 gb,1 tb hdd,2024-01-30,2024-05-16,no repairs,2025-05-30,no replacement needed,0.94,1
+XKCFSCS8,laptop,in repair,macbook pro,apple,1127,2023-01-01,windows 10,intel core i5,8 gb,512 gb ssd,2024-01-26,2024-05-11,minor repairs,2025-01-27,no replacement needed,0.84,8
+HI8LGU9Y,laptop,in repair,macbook air,apple,1128,2023-04-03,ubuntu 20.04,intel core i5,32 gb,512 gb ssd,2024-01-21,2024-05-28,minor repairs,2025-08-15,no replacement needed,0.99,2
+S650BEYJ,laptop,assigned,dell inspiron,dell,1129,2023-03-27,windows 10,intel core i5,8 gb,1 tb hdd,2024-01-25,2024-05-06,no repairs,2025-09-09,replace soon,0.54,2
+9K02C0L7,laptop,assigned,macbook pro,apple,1130,2023-03-18,ubuntu 20.04,intel core i5,8 gb,512 gb ssd,2024-01-20,2024-05-25,major repairs,2025-06-30,no replacement needed,0.76,9
+CGXL2G1U,laptop,assigned,macbook air,apple,1131,2023-05-09,macos big sur,intel core i5,8 gb,1 tb hdd,2024-01-04,2024-05-11,minor repairs,2025-07-29,no replacement needed,0.78,6
+FSF33UNJ,laptop,retired,macbook pro,apple,1132,2023-03-27,ubuntu 20.04,amd ryzen 5,32 gb,256 gb ssd,2024-02-01,2024-05-24,no repairs,2025-06-14,replace soon,0.66,8
+JSRGHLW9,laptop,assigned,lenovo ideapad,lenovo,1133,2023-05-15,macos big sur,amd ryzen 5,32 gb,512 gb ssd,2024-01-23,2024-05-03,major repairs,2025-11-23,replace soon,0.72,8
+DVLN8U5L,laptop,retired,macbook pro,apple,1134,2023-04-03,ubuntu 20.04,intel core i5,32 gb,256 gb ssd,2024-01-29,2024-05-30,minor repairs,2025-07-01,no replacement needed,0.68,2
+P58JBAXZ,laptop,in repair,dell inspiron,dell,1135,2023-02-23,windows 10,intel core i7,8 gb,512 gb ssd,2024-01-24,2024-05-04,minor repairs,2025-05-05,replace soon,0.95,2
+Z3SF3DU3,laptop,assigned,lenovo ideapad,lenovo,1136,2023-04-18,windows 10,amd ryzen 5,32 gb,1 tb hdd,2024-01-05,2024-05-04,major repairs,2025-07-20,no replacement needed,0.65,0
+IT3VWNHL,laptop,retired,dell inspiron,dell,1137,2023-01-25,windows 10,intel core i7,8 gb,1 tb hdd,2024-01-04,2024-05-31,minor repairs,2025-05-16,replace soon,0.6,1
+LIL4P2BV,laptop,assigned,hp pavilion,hp,1138,2023-01-14,windows 10,intel core i7,8 gb,1 tb hdd,2024-01-31,2024-05-17,major repairs,2025-12-16,replace soon,0.55,7
+U415DRV0,laptop,retired,lenovo ideapad,lenovo,1139,2023-01-29,ubuntu 20.04,intel core i7,32 gb,256 gb ssd,2024-01-17,2024-05-17,major repairs,2025-12-20,replace soon,0.7,6
+KCBWP4AQ,laptop,assigned,hp pavilion,hp,1140,2023-04-22,windows 10,amd ryzen 5,32 gb,256 gb ssd,2024-01-24,2024-05-20,minor repairs,2025-06-29,replace soon,0.96,0
+TUGPXPGK,laptop,retired,macbook air,apple,1141,2023-04-05,macos big sur,amd ryzen 5,16 gb,1 tb hdd,2024-01-04,2024-05-10,minor repairs,2025-09-02,replace soon,0.82,9
+RH6PVFU3,laptop,retired,dell inspiron,dell,1142,2023-05-21,windows 10,amd ryzen 5,16 gb,256 gb ssd,2024-01-03,2024-05-04,minor repairs,2025-03-12,no replacement needed,0.57,7
+Z77ETZ9V,laptop,in repair,dell inspiron,dell,1143,2023-01-28,macos big sur,intel core i7,8 gb,1 tb hdd,2024-01-08,2024-05-22,minor repairs,2025-03-21,no replacement needed,0.9,1
+OC9GZ1XC,laptop,assigned,lenovo ideapad,lenovo,1144,2023-05-13,ubuntu 20.04,intel core i7,8 gb,256 gb ssd,2024-01-07,2024-05-21,major repairs,2025-01-21,replace soon,0.7,4
+ZVM0Y644,laptop,retired,hp pavilion,hp,1145,2023-05-10,macos big sur,intel core i7,32 gb,256 gb ssd,2024-01-08,2024-05-07,major repairs,2025-11-30,no replacement needed,0.6,3
+X3M7CSSG,laptop,retired,macbook pro,apple,1146,2023-05-04,ubuntu 20.04,intel core i7,32 gb,512 gb ssd,2024-01-15,2024-05-21,no repairs,2025-09-13,no replacement needed,0.69,6
+E8525EHC,laptop,assigned,macbook air,apple,1147,2023-02-20,windows 10,intel core i7,16 gb,256 gb ssd,2024-01-30,2024-05-07,no repairs,2025-03-13,replace soon,0.73,7
+ECWTG8C7,laptop,in repair,macbook pro,apple,1148,2023-01-16,ubuntu 20.04,intel core i5,32 gb,512 gb ssd,2024-01-18,2024-05-16,minor repairs,2025-09-07,no replacement needed,0.71,2
+KY6L7VJW,laptop,in repair,lenovo ideapad,lenovo,1149,2023-01-09,ubuntu 20.04,intel core i5,16 gb,256 gb ssd,2024-01-19,2024-05-27,minor repairs,2025-11-06,replace soon,0.83,9
+QVUJQFDQ,laptop,assigned,macbook air,apple,1150,2023-05-14,ubuntu 20.04,amd ryzen 5,16 gb,1 tb hdd,2024-01-09,2024-05-13,major repairs,2025-12-28,replace soon,0.96,5
+A69BIABT,laptop,assigned,macbook pro,apple,1151,2023-04-15,ubuntu 20.04,amd ryzen 5,32 gb,512 gb ssd,2024-01-24,2024-05-23,no repairs,2025-10-09,no replacement needed,0.66,7
+115T1HEB,laptop,retired,lenovo ideapad,lenovo,1152,2023-05-27,macos big sur,intel core i7,16 gb,1 tb hdd,2024-01-08,2024-05-31,no repairs,2025-11-27,no replacement needed,0.87,8
+YLPQOOER,laptop,retired,dell inspiron,dell,1153,2023-02-14,macos big sur,intel core i5,8 gb,512 gb ssd,2024-01-05,2024-05-19,minor repairs,2025-06-13,no replacement needed,0.98,4
+9C7OXGFN,laptop,retired,macbook pro,apple,1154,2023-05-10,windows 10,intel core i5,32 gb,1 tb hdd,2024-01-25,2024-05-08,no repairs,2025-01-14,replace soon,0.91,4
+PC14X6S0,laptop,in repair,hp pavilion,hp,1155,2023-02-20,macos big sur,intel core i7,32 gb,256 gb ssd,2024-01-17,2024-05-02,minor repairs,2025-11-06,no replacement needed,0.52,1
+XG5UPISJ,laptop,assigned,dell inspiron,dell,1156,2023-04-07,windows 10,intel core i7,16 gb,256 gb ssd,2024-01-14,2024-05-05,no repairs,2025-05-20,replace soon,0.69,5
+1VG14VNP,laptop,retired,macbook pro,apple,1157,2023-01-07,macos big sur,amd ryzen 5,16 gb,256 gb ssd,2024-01-26,2024-05-05,minor repairs,2025-05-09,replace soon,0.7,2
+2QWH3IOC,laptop,in repair,hp pavilion,hp,1158,2023-05-19,macos big sur,amd ryzen 5,16 gb,512 gb ssd,2024-01-11,2024-05-21,minor repairs,2025-12-10,replace soon,0.96,9
+GNI4J0NG,laptop,assigned,hp pavilion,hp,1159,2023-02-01,macos big sur,intel core i5,8 gb,1 tb hdd,2024-01-29,2024-05-24,no repairs,2025-06-07,no replacement needed,0.65,0
+OCQ4UVQE,laptop,assigned,lenovo ideapad,lenovo,1160,2023-02-06,windows 10,intel core i5,8 gb,1 tb hdd,2024-01-15,2024-05-25,minor repairs,2025-01-15,no replacement needed,0.97,2
+2F10J0R8,laptop,assigned,dell inspiron,dell,1161,2023-03-19,windows 10,intel core i5,32 gb,1 tb hdd,2024-01-06,2024-05-25,minor repairs,2025-02-26,no replacement needed,0.6,8
+68V7UO4T,laptop,retired,hp pavilion,hp,1162,2023-05-23,ubuntu 20.04,intel core i5,8 gb,512 gb ssd,2024-01-10,2024-05-06,no repairs,2025-03-28,no replacement needed,0.71,6
+KQLIGJ9W,laptop,in repair,macbook air,apple,1163,2023-04-22,macos big sur,amd ryzen 5,8 gb,512 gb ssd,2024-02-01,2024-05-05,minor repairs,2025-06-23,replace soon,0.65,7
+EDLRSBQ2,laptop,retired,dell inspiron,dell,1164,2023-04-21,ubuntu 20.04,amd ryzen 5,16 gb,512 gb ssd,2024-01-01,2024-05-21,major repairs,2025-04-17,replace soon,0.83,4
+4T0T0KXE,laptop,retired,dell inspiron,dell,1165,2023-05-25,ubuntu 20.04,intel core i5,8 gb,512 gb ssd,2024-01-02,2024-05-23,no repairs,2025-05-28,no replacement needed,0.72,3
+A4TK3QF1,laptop,in repair,macbook air,apple,1166,2023-01-06,windows 10,intel core i5,8 gb,512 gb ssd,2024-01-08,2024-05-17,minor repairs,2025-01-18,no replacement needed,0.7,7
+BGN24F32,laptop,assigned,lenovo ideapad,lenovo,1167,2023-02-03,windows 10,amd ryzen 5,16 gb,512 gb ssd,2024-01-04,2024-06-01,major repairs,2025-10-23,no replacement needed,0.99,3
+YURHDL5Z,laptop,assigned,hp pavilion,hp,1168,2023-03-10,macos big sur,intel core i7,8 gb,1 tb hdd,2024-01-22,2024-05-13,minor repairs,2025-09-24,no replacement needed,0.91,4
+K8C9MWZJ,laptop,in repair,hp pavilion,hp,1169,2023-04-10,macos big sur,intel core i5,16 gb,1 tb hdd,2024-01-08,2024-05-14,major repairs,2025-06-07,no replacement needed,0.98,5
+EJNQUQX0,laptop,in repair,lenovo ideapad,lenovo,1170,2023-01-24,ubuntu 20.04,amd ryzen 5,32 gb,512 gb ssd,2024-01-13,2024-05-31,minor repairs,2025-04-17,no replacement needed,0.8,8
+UHEDTM3Z,laptop,in repair,hp pavilion,hp,1171,2023-03-06,ubuntu 20.04,intel core i7,8 gb,1 tb hdd,2024-02-01,2024-05-16,minor repairs,2025-12-25,no replacement needed,0.9,8
+17JIQE15,laptop,assigned,macbook pro,apple,1172,2023-05-24,windows 10,intel core i5,32 gb,256 gb ssd,2024-01-28,2024-05-12,no repairs,2025-05-10,no replacement needed,0.74,9
+HT6E4YWE,laptop,retired,macbook air,apple,1173,2023-01-10,macos big sur,intel core i5,16 gb,1 tb hdd,2024-01-08,2024-05-30,no repairs,2025-08-09,no replacement needed,0.9,2
+WJ052OF8,laptop,in repair,macbook air,apple,1174,2023-01-08,windows 10,intel core i5,8 gb,512 gb ssd,2024-01-30,2024-05-21,major repairs,2025-01-10,no replacement needed,0.86,8
+SCAU1N71,laptop,assigned,macbook pro,apple,1175,2023-04-22,ubuntu 20.04,intel core i5,16 gb,256 gb ssd,2024-01-14,2024-05-24,no repairs,2025-06-03,no replacement needed,0.85,3
+PXSS3I2H,laptop,assigned,hp pavilion,hp,1176,2023-03-29,windows 10,intel core i7,8 gb,512 gb ssd,2024-01-24,2024-05-02,major repairs,2025-10-01,no replacement needed,0.99,0
+YB0IB8BK,laptop,assigned,hp pavilion,hp,1177,2023-02-19,macos big sur,intel core i7,16 gb,256 gb ssd,2024-01-24,2024-05-25,no repairs,2025-02-21,no replacement needed,0.77,8
+47CT183H,laptop,assigned,macbook pro,apple,1178,2023-04-10,ubuntu 20.04,intel core i5,32 gb,1 tb hdd,2024-01-23,2024-05-09,major repairs,2025-07-24,no replacement needed,0.92,6
+1JBM0MBA,laptop,in repair,macbook air,apple,1179,2023-04-17,ubuntu 20.04,amd ryzen 5,8 gb,256 gb ssd,2024-01-17,2024-05-22,major repairs,2025-11-12,no replacement needed,0.87,6
+BK27YVLB,laptop,in repair,macbook air,apple,1180,2023-02-03,windows 10,amd ryzen 5,8 gb,512 gb ssd,2024-01-26,2024-06-01,no repairs,2025-07-02,no replacement needed,0.84,4
+QFTIVGDL,laptop,assigned,hp pavilion,hp,1181,2023-03-31,macos big sur,intel core i5,32 gb,1 tb hdd,2024-01-15,2024-05-14,major repairs,2025-05-04,replace soon,0.96,3
+98ON3A66,laptop,in repair,dell inspiron,dell,1182,2023-03-04,macos big sur,amd ryzen 5,32 gb,512 gb ssd,2024-01-16,2024-05-14,major repairs,2025-04-14,replace soon,0.92,1
+I3XH3QSO,laptop,in repair,macbook pro,apple,1183,2023-01-05,macos big sur,intel core i5,32 gb,512 gb ssd,2024-01-10,2024-05-17,no repairs,2025-10-12,replace soon,1.0,7
+63NFS6ND,laptop,assigned,macbook pro,apple,1184,2023-04-22,ubuntu 20.04,amd ryzen 5,16 gb,512 gb ssd,2024-01-27,2024-05-06,no repairs,2025-10-23,replace soon,0.91,7
+CUW2QOBE,laptop,assigned,macbook pro,apple,1185,2023-01-19,ubuntu 20.04,intel core i5,16 gb,256 gb ssd,2024-01-08,2024-05-10,minor repairs,2025-08-19,replace soon,0.98,4
+G58L6MJM,laptop,in repair,hp pavilion,hp,1186,2023-02-02,ubuntu 20.04,intel core i5,16 gb,512 gb ssd,2024-01-18,2024-05-14,no repairs,2025-04-28,replace soon,0.6,8
+HA2W6MG6,laptop,assigned,macbook pro,apple,1187,2023-01-13,macos big sur,amd ryzen 5,32 gb,512 gb ssd,2024-01-10,2024-05-16,major repairs,2025-10-27,no replacement needed,0.96,5
+1SMT50MH,laptop,assigned,lenovo ideapad,lenovo,1188,2023-02-15,macos big sur,intel core i7,8 gb,256 gb ssd,2024-01-17,2024-05-21,minor repairs,2025-05-07,replace soon,0.78,3
+U3VDC75U,laptop,in repair,lenovo ideapad,lenovo,1189,2023-03-05,ubuntu 20.04,intel core i7,16 gb,256 gb ssd,2024-01-11,2024-05-01,minor repairs,2025-03-31,no replacement needed,0.9,9
+2WZTPRW8,laptop,assigned,lenovo ideapad,lenovo,1190,2023-01-05,ubuntu 20.04,intel core i5,8 gb,1 tb hdd,2024-01-22,2024-05-09,major repairs,2025-02-17,replace soon,0.85,2
+FAIP8MSY,laptop,in repair,lenovo ideapad,lenovo,1191,2023-05-27,windows 10,intel core i5,32 gb,1 tb hdd,2024-01-19,2024-05-16,no repairs,2025-09-20,no replacement needed,0.54,5
+AO3PPQGI,laptop,retired,lenovo ideapad,lenovo,1192,2023-01-23,windows 10,intel core i7,32 gb,256 gb ssd,2024-01-14,2024-05-08,major repairs,2025-11-29,no replacement needed,0.74,7
+DIUFKQVM,laptop,assigned,dell inspiron,dell,1193,2023-03-20,windows 10,amd ryzen 5,16 gb,256 gb ssd,2024-01-26,2024-05-08,minor repairs,2025-05-16,no replacement needed,0.89,6
+7WX8OH28,laptop,retired,dell inspiron,dell,1194,2023-02-02,windows 10,amd ryzen 5,8 gb,1 tb hdd,2024-01-15,2024-05-26,no repairs,2025-05-17,replace soon,0.81,1
+MFFVJYE3,laptop,assigned,macbook pro,apple,1195,2023-04-28,windows 10,amd ryzen 5,8 gb,256 gb ssd,2024-01-08,2024-05-08,minor repairs,2025-04-22,no replacement needed,0.6,5
+H2EINM2J,laptop,assigned,hp pavilion,hp,1196,2023-04-08,ubuntu 20.04,amd ryzen 5,8 gb,512 gb ssd,2024-01-01,2024-05-08,no repairs,2025-02-11,no replacement needed,0.72,9
+GV9XU32S,laptop,in repair,macbook pro,apple,1197,2023-02-23,windows 10,intel core i7,8 gb,1 tb hdd,2024-01-06,2024-05-23,major repairs,2025-10-06,no replacement needed,0.85,5
+MFU8Q4ME,laptop,in repair,macbook air,apple,1198,2023-05-08,macos big sur,intel core i7,32 gb,256 gb ssd,2024-01-13,2024-05-28,major repairs,2025-09-24,replace soon,0.51,3
+G9IAF5F3,laptop,in repair,macbook pro,apple,1199,2023-03-24,ubuntu 20.04,intel core i7,32 gb,1 tb hdd,2024-01-14,2024-05-15,no repairs,2025-09-30,no replacement needed,0.57,8
+JA0QGF4B,laptop,retired,lenovo ideapad,lenovo,1200,2023-02-23,macos big sur,amd ryzen 5,16 gb,256 gb ssd,2024-01-10,2024-05-02,major repairs,2025-07-31,no replacement needed,0.87,2
+C9LI2U61,laptop,assigned,macbook air,apple,1201,2023-02-10,windows 10,intel core i5,8 gb,512 gb ssd,2024-01-01,2024-05-21,major repairs,2025-02-02,replace soon,0.88,9
+BJXBMDRV,laptop,in repair,macbook air,apple,1202,2023-02-23,ubuntu 20.04,intel core i5,8 gb,256 gb ssd,2024-01-29,2024-05-24,no repairs,2025-06-03,no replacement needed,0.94,1
+839TKAON,laptop,assigned,macbook air,apple,1203,2023-01-18,macos big sur,intel core i7,32 gb,256 gb ssd,2024-01-14,2024-05-16,major repairs,2025-06-22,no replacement needed,0.8,5
+7S8Q22AJ,laptop,in repair,macbook air,apple,1204,2023-03-13,windows 10,intel core i7,32 gb,512 gb ssd,2024-01-29,2024-05-25,no repairs,2025-11-19,replace soon,0.92,8
+1X6L4QBS,laptop,assigned,macbook air,apple,1205,2023-03-02,ubuntu 20.04,amd ryzen 5,8 gb,256 gb ssd,2024-01-05,2024-05-08,minor repairs,2025-10-29,replace soon,0.76,8
+4D8QFXDI,laptop,in repair,macbook pro,apple,1206,2023-05-05,macos big sur,intel core i5,32 gb,1 tb hdd,2024-01-06,2024-05-09,major repairs,2025-08-17,replace soon,0.6,3
+AZNEFHOJ,laptop,retired,macbook pro,apple,1207,2023-01-03,windows 10,intel core i5,8 gb,512 gb ssd,2024-01-05,2024-05-31,major repairs,2025-10-27,no replacement needed,0.54,3
+V4BVT6TM,laptop,in repair,dell inspiron,dell,1208,2023-01-30,ubuntu 20.04,intel core i7,16 gb,256 gb ssd,2024-02-01,2024-05-26,major repairs,2025-11-12,replace soon,0.89,1
+JM07SOAY,laptop,in repair,lenovo ideapad,lenovo,1209,2023-05-21,ubuntu 20.04,amd ryzen 5,16 gb,512 gb ssd,2024-01-13,2024-05-02,no repairs,2025-06-19,no replacement needed,0.92,6
+WNEYJUPT,laptop,retired,macbook air,apple,1210,2023-03-15,windows 10,intel core i5,16 gb,512 gb ssd,2024-01-29,2024-05-23,minor repairs,2025-07-18,replace soon,0.57,2
+G390GJJR,laptop,in repair,dell inspiron,dell,1211,2023-05-30,windows 10,intel core i5,8 gb,1 tb hdd,2024-01-23,2024-05-18,no repairs,2025-06-04,replace soon,0.63,5
+GIBOLL93,laptop,assigned,lenovo ideapad,lenovo,1212,2023-02-06,ubuntu 20.04,amd ryzen 5,8 gb,1 tb hdd,2024-01-23,2024-05-03,no repairs,2025-08-14,no replacement needed,0.75,7
+4K2L4DM9,laptop,in repair,macbook air,apple,1213,2023-03-14,macos big sur,amd ryzen 5,32 gb,256 gb ssd,2024-01-14,2024-05-15,major repairs,2025-09-23,no replacement needed,0.78,5
+1FZF8TAH,laptop,in repair,macbook air,apple,1214,2023-03-05,windows 10,intel core i5,8 gb,256 gb ssd,2024-01-31,2024-05-19,minor repairs,2025-05-28,replace soon,0.89,5
+JAXRYIOJ,laptop,assigned,macbook pro,apple,1215,2023-02-07,ubuntu 20.04,intel core i7,8 gb,1 tb hdd,2024-01-16,2024-05-29,minor repairs,2025-07-07,no replacement needed,0.56,0
+OL1Y94PT,laptop,assigned,hp pavilion,hp,1216,2023-05-30,macos big sur,intel core i7,16 gb,256 gb ssd,2024-01-25,2024-05-08,no repairs,2025-02-23,no replacement needed,0.56,1
+WAGRL8EK,laptop,in repair,dell inspiron,dell,1217,2023-05-23,macos big sur,amd ryzen 5,8 gb,512 gb ssd,2024-01-02,2024-05-03,no repairs,2025-07-23,no replacement needed,0.93,5
+SO6CY0B5,laptop,assigned,macbook air,apple,1218,2023-05-22,ubuntu 20.04,intel core i7,32 gb,512 gb ssd,2024-01-18,2024-05-01,minor repairs,2025-12-23,replace soon,0.51,2
+456MWWHS,laptop,retired,macbook pro,apple,1219,2023-03-21,ubuntu 20.04,intel core i5,8 gb,1 tb hdd,2024-01-14,2024-05-18,no repairs,2025-01-05,no replacement needed,0.79,1
+VTKKFDR6,laptop,assigned,macbook air,apple,1220,2023-05-12,ubuntu 20.04,intel core i7,8 gb,1 tb hdd,2024-01-30,2024-05-30,major repairs,2025-04-11,no replacement needed,0.96,1

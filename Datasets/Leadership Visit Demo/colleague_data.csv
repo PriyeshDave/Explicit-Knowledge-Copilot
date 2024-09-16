@@ -1,0 +1,221 @@
+employee_id,emp_name,work_location,work_country,business_unit,department,designation,band,role,date_of_joining,year_of_joining,joining_month,laptop_model,manufacturer
+1001,john doe,building 9,japan,bu2,customer support,support engineer 3,a40,support analyst,2020-03-30,2020,march,lenovo ideapad,lenovo
+1002,jane doe,building 4,france,bu1,finance,manager,a35,business analyst,2019-07-26,2019,july,macbook air,apple
+1003,john smith,building 10,japan,bu3,hr,hr specialist,a50,recruitment specialist,2016-12-22,2016,december,hp pavilion,hp
+1004,jane smith,building 6,south africa,bu4,technology,lead developer,a40,product manager,2019-11-16,2019,november,macbook pro,apple
+1005,john johnson,building 10,south africa,bu2,sales,sales representative,a55,sales executive,2016-08-31,2016,august,lenovo ideapad,lenovo
+1006,jane johnson,building 1,india,bu3,hr,hr specialist,a40,recruitment specialist,2022-09-18,2022,september,dell inspiron,dell
+1007,john williams,building 3,australia,bu6,customer support,support engineer 2,a45,support analyst,2019-12-31,2019,december,macbook air,apple
+1008,jane williams,building 7,japan,bu4,hr,hr specialist,a50,recruitment specialist,2015-11-12,2015,november,macbook air,apple
+1009,john brown,building 3,nigeria,bu2,customer support,support engineer 1,a35,support analyst,2024-02-18,2024,february,dell inspiron,dell
+1010,jane brown,building 8,china,bu5,sales,sales representative,a35,sales executive,2022-05-28,2022,may,macbook air,apple
+1011,john jones,building 6,canada,bu1,hr,hr specialist,a50,recruitment specialist,2023-03-17,2023,march,macbook air,apple
+1012,jane jones,building 9,nigeria,bu4,hr,hr specialist,a50,recruitment specialist,2021-06-24,2021,june,dell inspiron,dell
+1013,john miller,building 3,germany,bu1,technology,developer,a55,full stack developer,2020-12-03,2020,december,lenovo ideapad,lenovo
+1014,jane miller,building 3,brazil,bu5,it,lead developer,a50,data scientist,2016-11-29,2016,november,hp pavilion,hp
+1015,john davis,building 10,australia,bu3,operations,manager,a55,data scientist,2018-03-17,2018,march,lenovo ideapad,lenovo
+1016,jane davis,building 1,mexico,bu3,customer support,support engineer 3,a50,support analyst,2021-09-22,2021,september,macbook pro,apple
+1017,john garcia,building 3,australia,bu5,marketing,senior manager,a45,python developer,2020-07-21,2020,july,macbook air,apple
+1018,jane garcia,building 9,argentina,bu3,marketing,lead developer,a45,java developer,2022-08-26,2022,august,lenovo ideapad,lenovo
+1019,john rodriguez,building 6,china,bu1,procurements,senior developer,a45,project manager,2018-05-01,2018,may,dell inspiron,dell
+1020,jane rodriguez,building 9,france,bu1,marketing,vice president,a55,python developer,2020-12-26,2020,december,lenovo ideapad,lenovo
+1021,john wilson,building 10,kenya,bu4,sales,sales representative,a35,sales executive,2017-09-18,2017,september,lenovo ideapad,lenovo
+1022,jane wilson,building 1,kenya,bu6,sales,sales representative,a55,sales executive,2021-11-06,2021,november,lenovo ideapad,lenovo
+1023,john martinez,building 6,japan,bu1,sales,sales representative,a50,sales executive,2023-11-20,2023,november,lenovo ideapad,lenovo
+1024,jane martinez,building 10,mexico,bu3,sales,sales representative,a35,sales executive,2018-05-01,2018,may,lenovo ideapad,lenovo
+1025,john anderson,building 4,germany,bu1,procurements,manager,a30,ui developer,2021-05-10,2021,may,macbook pro,apple
+1026,jane anderson,building 10,france,bu2,technology,developer,a30,software developer,2023-05-23,2023,may,lenovo ideapad,lenovo
+1027,john taylor,building 2,canada,bu3,technology,developer,a55,software developer,2018-02-23,2018,february,macbook air,apple
+1028,jane taylor,building 3,canada,bu6,it,developer,a50,product manager,2022-08-04,2022,august,macbook pro,apple
+1029,john thomas,building 3,france,bu2,finance,analyst,a35,financial analyst,2019-09-09,2019,september,hp pavilion,hp
+1030,jane thomas,building 4,kenya,bu5,operations,developer,a45,data engineer,2015-01-23,2015,january,lenovo ideapad,lenovo
+1031,john hernandez,building 1,nigeria,bu6,finance,vice president,a35,financial analyst,2021-03-26,2021,march,dell inspiron,dell
+1032,jane hernandez,building 9,brazil,bu6,it,manager,a50,data scientist,2018-04-09,2018,april,macbook pro,apple
+1033,john moore,building 1,germany,bu4,procurements,senior developer,a45,product manager,2017-03-22,2017,march,dell inspiron,dell
+1034,jane moore,building 4,nigeria,bu6,procurements,manager,a30,java developer,2017-05-06,2017,may,lenovo ideapad,lenovo
+1035,john martin,building 3,south africa,bu1,finance,analyst,a30,financial analyst,2018-04-09,2018,april,hp pavilion,hp
+1036,jane martin,building 9,uk,bu2,hr,hr specialist,a30,recruitment specialist,2020-06-28,2020,june,lenovo ideapad,lenovo
+1037,john jackson,building 1,nigeria,bu3,marketing,vice president,a50,product manager,2021-03-03,2021,march,lenovo ideapad,lenovo
+1038,jane jackson,building 7,brazil,bu1,customer support,support engineer 2,a35,support analyst,2015-12-27,2015,december,macbook pro,apple
+1039,john thompson,building 8,kenya,bu5,procurements,manager,a55,data analyst,2021-09-22,2021,september,hp pavilion,hp
+1040,jane thompson,building 8,australia,bu3,operations,lead developer,a30,data analyst,2021-01-17,2021,january,macbook air,apple
+1041,john white,building 1,canada,bu6,marketing,lead developer,a30,business analyst,2020-04-22,2020,april,macbook pro,apple
+1042,jane white,building 8,germany,bu6,customer support,support engineer 1,a55,support analyst,2016-06-02,2016,june,macbook air,apple
+1043,john lopez,building 4,kenya,bu2,it,lead developer,a30,data engineer,2020-03-30,2020,march,dell inspiron,dell
+1044,jane lopez,building 6,france,bu1,hr,hr specialist,a45,recruitment specialist,2018-01-09,2018,january,dell inspiron,dell
+1045,john lee,building 5,south africa,bu1,operations,senior manager,a50,data scientist,2015-08-14,2015,august,macbook air,apple
+1046,jane lee,building 10,germany,bu2,sales,sales representative,a45,sales executive,2018-11-20,2018,november,dell inspiron,dell
+1047,john gonzalez,building 2,canada,bu1,it,lead developer,a45,project manager,2019-07-04,2019,july,macbook pro,apple
+1048,jane gonzalez,building 5,australia,bu4,procurements,developer,a55,product manager,2018-12-13,2018,december,macbook air,apple
+1049,john harris,building 2,usa,bu4,procurements,senior manager,a30,python developer,2016-05-10,2016,may,lenovo ideapad,lenovo
+1050,jane harris,building 3,nigeria,bu2,it,senior manager,a45,python developer,2018-02-23,2018,february,macbook air,apple
+1051,john clark,building 2,japan,bu3,procurements,senior manager,a55,business analyst,2015-09-05,2015,september,macbook pro,apple
+1052,jane clark,building 9,japan,bu5,hr,hr specialist,a50,recruitment specialist,2023-05-23,2023,may,macbook air,apple
+1053,john lewis,building 9,india,bu6,customer support,support engineer 3,a40,support analyst,2018-01-09,2018,january,dell inspiron,dell
+1054,jane lewis,building 8,australia,bu5,operations,developer,a45,project manager,2016-01-19,2016,january,macbook air,apple
+1055,john robinson,building 7,argentina,bu2,finance,analyst,a50,financial analyst,2023-10-06,2023,october,hp pavilion,hp
+1056,jane robinson,building 2,south africa,bu2,sales,sales representative,a50,sales executive,2024-02-18,2024,february,lenovo ideapad,lenovo
+1057,john walker,building 2,argentina,bu1,sales,sales representative,a35,sales executive,2017-02-27,2017,february,macbook air,apple
+1058,jane walker,building 6,brazil,bu3,marketing,senior manager,a40,business analyst,2015-01-01,2015,january,macbook pro,apple
+1059,john perez,building 6,nigeria,bu2,hr,hr specialist,a35,recruitment specialist,2018-08-22,2018,august,hp pavilion,hp
+1060,jane perez,building 5,mexico,bu1,operations,manager,a35,project manager,2020-05-14,2020,may,hp pavilion,hp
+1061,john hall,building 10,france,bu5,sales,sales representative,a55,sales executive,2020-04-22,2020,april,lenovo ideapad,lenovo
+1062,jane hall,building 10,japan,bu4,technology,developer,a50,software developer,2019-11-16,2019,november,macbook air,apple
+1063,john young,building 2,usa,bu5,operations,senior manager,a30,business analyst,2022-03-21,2022,march,macbook pro,apple
+1064,jane young,building 4,germany,bu6,marketing,vice president,a35,project manager,2016-10-15,2016,october,macbook air,apple
+1065,john allen,building 2,uk,bu6,technology,developer,a45,software developer,2019-12-08,2019,december,lenovo ideapad,lenovo
+1066,jane allen,building 10,nigeria,bu4,customer support,support engineer 2,a45,support analyst,2018-07-31,2018,july,macbook air,apple
+1067,john sanchez,building 7,australia,bu4,customer support,support engineer 1,a50,support analyst,2015-01-01,2015,january,dell inspiron,dell
+1068,jane sanchez,building 1,usa,bu2,hr,hr specialist,a45,recruitment specialist,2020-07-21,2020,july,dell inspiron,dell
+1069,john wright,building 3,canada,bu6,hr,hr specialist,a30,recruitment specialist,2022-02-04,2022,february,hp pavilion,hp
+1070,jane wright,building 4,canada,bu3,operations,senior manager,a50,java developer,2015-01-01,2015,january,lenovo ideapad,lenovo
+1071,john king,building 4,australia,bu4,finance,analyst,a40,financial analyst,2016-03-04,2016,march,hp pavilion,hp
+1072,jane king,building 5,germany,bu3,hr,hr specialist,a30,recruitment specialist,2015-01-23,2015,january,macbook air,apple
+1073,john scott,building 8,india,bu1,technology,developer,a50,software developer,2023-03-17,2023,march,macbook air,apple
+1074,jane scott,building 8,china,bu5,marketing,vice president,a55,data scientist,2019-03-13,2019,march,dell inspiron,dell
+1075,john green,building 2,germany,bu5,hr,hr specialist,a50,recruitment specialist,2021-10-15,2021,october,macbook air,apple
+1076,jane green,building 3,germany,bu5,it,senior developer,a35,business analyst,2024-02-18,2024,february,dell inspiron,dell
+1077,john baker,building 5,france,bu5,procurements,senior developer,a45,business analyst,2017-08-04,2017,august,dell inspiron,dell
+1078,jane baker,building 2,japan,bu5,technology,developer,a35,product manager,2021-05-10,2021,may,macbook pro,apple
+1079,john adams,building 9,japan,bu6,procurements,vice president,a30,ui developer,2022-09-18,2022,september,macbook air,apple
+1080,jane adams,building 3,india,bu5,technology,developer,a40,software developer,2024-01-26,2024,january,macbook pro,apple
+1081,john nelson,building 6,canada,bu3,customer support,support engineer 3,a40,support analyst,2016-07-17,2016,july,hp pavilion,hp
+1082,jane nelson,building 5,kenya,bu1,operations,senior developer,a55,project manager,2016-04-18,2016,april,macbook air,apple
+1083,john hill,building 2,uk,bu3,customer support,support engineer 2,a35,support analyst,2021-06-24,2021,june,lenovo ideapad,lenovo
+1084,jane hill,building 2,canada,bu3,technology,developer,a35,software developer,2017-05-06,2017,may,macbook pro,apple
+1085,john ramirez,building 10,brazil,bu6,sales,sales representative,a55,sales executive,2015-09-05,2015,september,hp pavilion,hp
+1086,jane ramirez,building 8,japan,bu5,procurements,director,a50,full stack developer,2023-07-30,2023,july,macbook air,apple
+1087,john campbell,building 7,germany,bu4,technology,developer,a35,full stack developer,2018-03-17,2018,march,macbook pro,apple
+1088,jane campbell,building 10,nigeria,bu5,hr,hr specialist,a40,recruitment specialist,2016-03-26,2016,march,hp pavilion,hp
+1089,john mitchell,building 4,mexico,bu1,sales,sales representative,a50,sales executive,2016-03-26,2016,march,lenovo ideapad,lenovo
+1090,jane mitchell,building 10,japan,bu4,it,director,a50,python developer,2019-04-05,2019,april,lenovo ideapad,lenovo
+1091,john roberts,building 4,south africa,bu3,operations,vice president,a40,data scientist,2017-01-13,2017,january,macbook pro,apple
+1092,jane roberts,building 5,china,bu1,marketing,developer,a35,data scientist,2023-04-08,2023,april,macbook air,apple
+1093,john carter,building 2,japan,bu4,marketing,senior developer,a50,product manager,2018-07-31,2018,july,macbook air,apple
+1094,jane carter,building 2,nigeria,bu2,customer support,support engineer 1,a50,support analyst,2019-01-27,2019,january,macbook air,apple
+1095,john phillips,building 8,japan,bu3,it,vice president,a55,data scientist,2020-01-23,2020,january,macbook pro,apple
+1096,jane phillips,building 3,uk,bu6,finance,analyst,a35,financial analyst,2018-05-01,2018,may,macbook pro,apple
+1097,john evans,building 10,france,bu2,sales,sales representative,a30,sales executive,2022-05-28,2022,may,hp pavilion,hp
+1098,jane evans,building 9,south africa,bu1,hr,hr specialist,a30,recruitment specialist,2019-12-31,2019,december,macbook air,apple
+1099,john turner,building 4,argentina,bu5,marketing,senior manager,a45,business analyst,2015-12-05,2015,december,hp pavilion,hp
+1100,jane turner,building 6,france,bu5,technology,lead developer,a30,software developer,2015-02-15,2015,february,macbook pro,apple
+1101,john torres,building 10,nigeria,bu3,finance,analyst,a45,financial analyst,2022-04-13,2022,april,macbook pro,apple
+1102,jane torres,building 1,germany,bu6,procurements,senior developer,a30,business analyst,2023-02-22,2023,february,macbook pro,apple
+1103,john parker,building 3,germany,bu4,procurements,senior developer,a55,product manager,2018-09-14,2018,september,macbook pro,apple
+1104,jane parker,building 3,uk,bu2,hr,hr specialist,a55,recruitment specialist,2021-02-09,2021,february,dell inspiron,dell
+1105,john collins,building 8,usa,bu3,operations,manager,a50,data engineer,2023-11-20,2023,november,hp pavilion,hp
+1106,jane collins,building 6,japan,bu4,customer support,support engineer 3,a30,support analyst,2016-11-07,2016,november,lenovo ideapad,lenovo
+1107,john edwards,building 1,japan,bu3,finance,analyst,a55,financial analyst,2018-01-09,2018,january,lenovo ideapad,lenovo
+1108,jane edwards,building 1,mexico,bu6,technology,developer,a35,software developer,2022-11-24,2022,november,lenovo ideapad,lenovo
+1109,john stewart,building 9,brazil,bu1,sales,sales representative,a50,sales executive,2018-01-31,2018,january,macbook air,apple
+1110,jane stewart,building 10,usa,bu2,it,lead developer,a30,data analyst,2021-04-17,2021,april,macbook pro,apple
+1111,john flores,building 2,china,bu2,marketing,developer,a40,python developer,2024-01-26,2024,january,macbook pro,apple
+1112,jane flores,building 8,argentina,bu5,hr,hr specialist,a55,recruitment specialist,2021-02-09,2021,february,macbook pro,apple
+1113,john morris,building 6,nigeria,bu2,it,director,a45,data engineer,2017-07-13,2017,july,lenovo ideapad,lenovo
+1114,jane morris,building 7,usa,bu5,procurements,director,a30,data engineer,2021-06-24,2021,june,dell inspiron,dell
+1115,john nguyen,building 1,mexico,bu4,technology,developer,a35,software developer,2020-11-10,2020,november,dell inspiron,dell
+1116,jane nguyen,building 7,kenya,bu6,it,developer,a35,data analyst,2020-05-14,2020,may,macbook air,apple
+1117,john murphy,building 3,canada,bu6,finance,analyst,a35,business analyst,2023-05-01,2023,may,lenovo ideapad,lenovo
+1118,jane murphy,building 8,japan,bu4,sales,sales representative,a50,sales executive,2023-05-23,2023,may,macbook pro,apple
+1119,john rivera,building 6,australia,bu3,customer support,support engineer 2,a45,support analyst,2019-07-26,2019,july,dell inspiron,dell
+1120,jane rivera,building 7,germany,bu2,procurements,director,a50,full stack developer,2015-01-01,2015,january,lenovo ideapad,lenovo
+1121,john cook,building 7,nigeria,bu2,sales,sales representative,a30,sales executive,2022-10-10,2022,october,macbook air,apple
+1122,jane cook,building 4,argentina,bu6,sales,sales representative,a30,sales executive,2019-10-02,2019,october,macbook pro,apple
+1123,john rogers,building 2,japan,bu6,sales,sales representative,a40,sales executive,2023-09-13,2023,september,hp pavilion,hp
+1124,jane rogers,building 1,kenya,bu6,finance,analyst,a30,financial analyst,2018-07-08,2018,july,macbook air,apple
+1125,john morgan,building 3,australia,bu4,operations,manager,a45,project manager,2023-04-08,2023,april,macbook pro,apple
+1126,jane morgan,building 8,france,bu1,operations,developer,a35,business analyst,2022-08-26,2022,august,dell inspiron,dell
+1127,john peterson,building 6,usa,bu5,operations,lead developer,a40,java developer,2016-06-02,2016,june,macbook pro,apple
+1128,jane peterson,building 4,brazil,bu6,marketing,lead developer,a40,ui developer,2020-01-23,2020,january,macbook air,apple
+1129,john cooper,building 5,germany,bu1,operations,lead developer,a35,project manager,2023-03-17,2023,march,dell inspiron,dell
+1130,jane cooper,building 9,brazil,bu2,sales,sales representative,a40,sales executive,2021-10-15,2021,october,macbook pro,apple
+1131,john reed,building 2,uk,bu5,hr,hr specialist,a40,recruitment specialist,2021-10-15,2021,october,macbook air,apple
+1132,jane reed,building 6,mexico,bu6,sales,sales representative,a55,sales executive,2017-11-02,2017,november,macbook pro,apple
+1133,john bailey,building 2,usa,bu6,marketing,manager,a35,project manager,2022-11-02,2022,november,lenovo ideapad,lenovo
+1134,jane bailey,building 5,argentina,bu6,technology,developer,a40,software developer,2021-06-24,2021,june,macbook pro,apple
+1135,john bell,building 1,australia,bu3,finance,analyst,a40,financial analyst,2023-02-22,2023,february,dell inspiron,dell
+1136,jane bell,building 4,germany,bu5,marketing,vice president,a55,product manager,2023-10-28,2023,october,lenovo ideapad,lenovo
+1137,john gomez,building 3,usa,bu5,finance,analyst,a50,financial analyst,2016-03-04,2016,march,dell inspiron,dell
+1138,jane gomez,building 1,mexico,bu1,technology,lead developer,a40,software developer,2015-07-22,2015,july,hp pavilion,hp
+1139,john kelly,building 10,germany,bu5,finance,analyst,a50,financial analyst,2023-09-13,2023,september,lenovo ideapad,lenovo
+1140,jane kelly,building 2,usa,bu1,technology,developer,a55,software developer,2017-06-20,2017,june,hp pavilion,hp
+1141,john howard,building 10,kenya,bu1,operations,senior developer,a50,python developer,2015-03-09,2015,march,macbook air,apple
+1142,jane howard,building 10,south africa,bu5,sales,sales representative,a50,sales executive,2019-01-27,2019,january,dell inspiron,dell
+1143,john ward,building 2,uk,bu2,procurements,senior developer,a50,business analyst,2019-12-31,2019,december,dell inspiron,dell
+1144,jane ward,building 9,japan,bu2,procurements,director,a50,project manager,2021-09-22,2021,september,lenovo ideapad,lenovo
+1145,john cox,building 6,japan,bu3,it,developer,a55,ui developer,2019-10-02,2019,october,hp pavilion,hp
+1146,jane cox,building 5,germany,bu6,hr,hr specialist,a50,recruitment specialist,2016-09-23,2016,september,macbook pro,apple
+1147,john diaz,building 1,canada,bu2,procurements,lead developer,a50,data scientist,2015-12-05,2015,december,macbook air,apple
+1148,jane diaz,building 2,usa,bu3,sales,sales representative,a30,sales executive,2017-11-02,2017,november,macbook pro,apple
+1149,john richardson,building 2,china,bu6,marketing,senior developer,a40,data scientist,2021-02-09,2021,february,lenovo ideapad,lenovo
+1150,jane richardson,building 8,brazil,bu2,hr,hr specialist,a55,recruitment specialist,2015-07-22,2015,july,macbook air,apple
+1151,john wood,building 1,uk,bu2,operations,manager,a55,java developer,2017-11-25,2017,november,macbook pro,apple
+1152,jane wood,building 10,brazil,bu6,operations,director,a35,data engineer,2023-02-22,2023,february,lenovo ideapad,lenovo
+1153,john watson,building 10,kenya,bu4,sales,sales representative,a50,sales executive,2019-12-08,2019,december,dell inspiron,dell
+1154,jane watson,building 9,india,bu3,finance,analyst,a40,financial analyst,2018-06-16,2018,june,macbook pro,apple
+1155,john brooks,building 9,germany,bu6,procurements,manager,a45,ui developer,2019-12-31,2019,december,hp pavilion,hp
+1156,jane brooks,building 8,south africa,bu2,customer support,support engineer 1,a55,support analyst,2023-07-08,2023,july,dell inspiron,dell
+1157,john bennett,building 2,mexico,bu5,sales,sales representative,a50,sales executive,2023-11-20,2023,november,macbook pro,apple
+1158,jane bennett,building 9,brazil,bu4,finance,manager,a35,financial analyst,2019-11-16,2019,november,hp pavilion,hp
+1159,john gray,building 6,argentina,bu3,it,lead developer,a30,data analyst,2016-04-18,2016,april,hp pavilion,hp
+1160,jane gray,building 10,canada,bu4,sales,sales representative,a45,sales executive,2015-12-05,2015,december,lenovo ideapad,lenovo
+1161,john james,building 3,france,bu1,sales,sales representative,a35,sales executive,2022-08-26,2022,august,dell inspiron,dell
+1162,jane james,building 2,usa,bu3,hr,hr specialist,a55,recruitment specialist,2020-10-19,2020,october,hp pavilion,hp
+1163,john reyes,building 7,india,bu3,technology,developer,a40,software developer,2022-09-18,2022,september,macbook air,apple
+1164,jane reyes,building 9,kenya,bu4,procurements,senior developer,a50,project manager,2023-01-31,2023,january,dell inspiron,dell
+1165,john cruz,building 2,usa,bu4,technology,developer,a55,software developer,2015-06-30,2015,june,dell inspiron,dell
+1166,jane cruz,building 10,uk,bu1,customer support,support engineer 3,a45,support analyst,2022-02-27,2022,february,macbook air,apple
+1167,john hughes,building 9,france,bu6,customer support,support engineer 2,a45,support analyst,2015-06-30,2015,june,lenovo ideapad,lenovo
+1168,jane hughes,building 5,france,bu1,marketing,senior manager,a50,data analyst,2019-11-16,2019,november,hp pavilion,hp
+1169,john price,building 8,china,bu2,technology,developer,a55,software developer,2019-10-02,2019,october,hp pavilion,hp
+1170,jane price,building 6,india,bu1,hr,hr specialist,a30,recruitment specialist,2021-02-09,2021,february,lenovo ideapad,lenovo
+1171,john myers,building 10,india,bu1,finance,analyst,a45,financial analyst,2023-09-13,2023,september,hp pavilion,hp
+1172,jane myers,building 7,brazil,bu5,sales,sales representative,a45,sales executive,2022-07-12,2022,july,macbook pro,apple
+1173,john long,building 2,australia,bu3,sales,sales representative,a45,sales executive,2019-11-16,2019,november,macbook air,apple
+1174,jane long,building 9,mexico,bu6,customer support,support engineer 1,a30,support analyst,2023-10-28,2023,october,macbook air,apple
+1175,john foster,building 9,south africa,bu3,it,senior manager,a30,project manager,2023-12-12,2023,december,macbook pro,apple
+1176,jane foster,building 9,usa,bu2,hr,hr specialist,a50,recruitment specialist,2018-10-29,2018,october,hp pavilion,hp
+1177,john sanders,building 7,usa,bu4,finance,analyst,a35,business analyst,2022-12-17,2022,december,hp pavilion,hp
+1178,jane sanders,building 10,germany,bu1,finance,analyst,a40,financial analyst,2015-06-30,2015,june,macbook pro,apple
+1179,john ross,building 1,argentina,bu5,finance,analyst,a55,financial analyst,2017-05-06,2017,may,macbook air,apple
+1180,jane ross,building 1,india,bu5,it,director,a35,data engineer,2023-07-30,2023,july,macbook air,apple
+1181,john morales,building 4,usa,bu3,technology,developer,a40,full stack developer,2017-08-04,2017,august,hp pavilion,hp
+1182,jane morales,building 6,india,bu1,marketing,vice president,a55,java developer,2019-07-26,2019,july,dell inspiron,dell
+1183,john powell,building 2,usa,bu5,hr,hr specialist,a30,recruitment specialist,2016-04-18,2016,april,macbook pro,apple
+1184,jane powell,building 3,mexico,bu2,operations,developer,a55,business analyst,2024-01-26,2024,january,macbook pro,apple
+1185,john sullivan,building 7,kenya,bu4,operations,senior manager,a35,java developer,2024-02-18,2024,february,macbook pro,apple
+1186,jane sullivan,building 8,china,bu2,hr,hr specialist,a50,recruitment specialist,2016-02-10,2016,february,hp pavilion,hp
+1187,john russell,building 2,brazil,bu4,operations,director,a45,data analyst,2015-12-27,2015,december,macbook pro,apple
+1188,jane russell,building 9,germany,bu6,finance,analyst,a40,financial analyst,2018-04-09,2018,april,lenovo ideapad,lenovo
+1189,john ortiz,building 4,argentina,bu5,customer support,support engineer 3,a45,support analyst,2018-02-23,2018,february,lenovo ideapad,lenovo
+1190,jane ortiz,building 2,france,bu4,finance,vice president,a30,financial analyst,2020-05-14,2020,may,lenovo ideapad,lenovo
+1191,john jenkins,building 5,japan,bu4,operations,lead developer,a55,business analyst,2023-05-01,2023,may,lenovo ideapad,lenovo
+1192,jane jenkins,building 6,usa,bu4,hr,hr specialist,a30,recruitment specialist,2023-07-30,2023,july,lenovo ideapad,lenovo
+1193,john gutierrez,building 3,usa,bu3,hr,hr specialist,a45,recruitment specialist,2015-06-07,2015,june,dell inspiron,dell
+1194,jane gutierrez,building 3,canada,bu4,finance,analyst,a50,financial analyst,2017-06-20,2017,june,dell inspiron,dell
+1195,john perry,building 10,canada,bu6,marketing,director,a45,java developer,2015-03-09,2015,march,macbook pro,apple
+1196,jane perry,building 1,uk,bu4,customer support,support engineer 2,a50,support analyst,2017-08-04,2017,august,hp pavilion,hp
+1197,john butler,building 4,japan,bu3,marketing,manager,a50,full stack developer,2020-01-23,2020,january,macbook pro,apple
+1198,jane butler,building 5,japan,bu1,customer support,support engineer 1,a40,support analyst,2021-11-29,2021,november,macbook air,apple
+1199,john barnes,building 1,canada,bu5,technology,developer,a45,software developer,2024-03-11,2024,march,macbook pro,apple
+1200,jane barnes,building 5,china,bu2,customer support,support engineer 3,a55,support analyst,2015-04-01,2015,april,lenovo ideapad,lenovo
+1201,john fisher,building 3,india,bu3,procurements,senior manager,a30,java developer,2015-03-09,2015,march,macbook air,apple
+1202,jane fisher,building 1,japan,bu6,procurements,vice president,a40,java developer,2016-08-31,2016,august,macbook air,apple
+1203,john henderson,building 9,usa,bu6,finance,vice president,a45,financial analyst,2020-10-19,2020,october,macbook air,apple
+1204,jane henderson,building 1,south africa,bu3,sales,sales representative,a40,sales executive,2017-08-27,2017,august,macbook air,apple
+1205,john coleman,building 6,france,bu2,hr,hr specialist,a50,recruitment specialist,2015-03-09,2015,march,macbook air,apple
+1206,jane coleman,building 5,china,bu6,customer support,support engineer 2,a55,support analyst,2021-07-16,2021,july,macbook pro,apple
+1207,john simmons,building 1,france,bu3,marketing,director,a55,project manager,2022-11-24,2022,november,macbook pro,apple
+1208,jane simmons,building 6,mexico,bu4,hr,hr specialist,a30,recruitment specialist,2023-07-08,2023,july,dell inspiron,dell
+1209,john patterson,building 6,mexico,bu4,finance,analyst,a50,financial analyst,2017-04-13,2017,april,lenovo ideapad,lenovo
+1210,jane patterson,building 8,uk,bu6,customer support,support engineer 1,a30,support analyst,2015-05-16,2015,may,macbook air,apple
+1211,john jordan,building 1,nigeria,bu3,operations,senior developer,a50,data scientist,2022-12-17,2022,december,dell inspiron,dell
+1212,jane jordan,building 3,brazil,bu6,technology,lead developer,a35,software developer,2016-09-23,2016,september,lenovo ideapad,lenovo
+1213,john reynolds,building 10,usa,bu3,sales,sales representative,a55,sales executive,2017-11-02,2017,november,macbook air,apple
+1214,jane reynolds,building 6,brazil,bu3,technology,developer,a40,software developer,2015-07-22,2015,july,macbook air,apple
+1215,john hamilton,building 7,nigeria,bu2,sales,sales representative,a55,sales executive,2016-12-22,2016,december,macbook pro,apple
+1216,jane hamilton,building 1,uk,bu2,procurements,manager,a40,full stack developer,2021-02-09,2021,february,hp pavilion,hp
+1217,john graham,building 8,india,bu1,marketing,developer,a35,data engineer,2022-09-18,2022,september,dell inspiron,dell
+1218,jane graham,building 3,argentina,bu3,operations,director,a40,java developer,2019-05-20,2019,may,macbook air,apple
+1219,john kim,building 5,canada,bu6,technology,developer,a35,full stack developer,2015-12-27,2015,december,macbook pro,apple
+1220,jane kim,building 3,india,bu4,procurements,director,a30,product manager,2017-08-27,2017,august,macbook air,apple
