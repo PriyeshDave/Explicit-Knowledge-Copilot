@@ -12,8 +12,10 @@ from pyvis.network import Network
 import base64
 
 
-GPT_SECRETS = st.secrets["gpt_secret"]
+# GPT_SECRETS = st.secrets["gpt_secret"]
+GPT_SECRETS = os.getenv('GPT_SECRET')
 open_ai_gpt3.openai.api_key = GPT_SECRETS
+
 COLLEAGUE_DATA_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/Datasets/Leadership Visit Demo/colleague_data.csv'
 ASSET_DATA_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/Datasets/Leadership Visit Demo/asset_data.csv'
 PDF_DIR_PATH = "/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Chat/data-bank/"

@@ -57,11 +57,13 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-GPT_SECRETS = st.secrets["gpt_secret"]
+#GPT_SECRETS = st.secrets["gpt_secret"]
+GPT_SECRETS = os.getenv('GPT_SECRET')
+open_ai_gpt3.openai.api_key = GPT_SECRETS
+
 SIDE_BAR_QUESTION_TAB_1 = 'question_dict_normal'
 SIDE_BAR_GENERATED_DATASET_INPUT_1 = 'generated_normal'
 SIDE_BAR_PAST_DATASET_INPUT_1 = 'past_normal'
-open_ai_gpt3.openai.api_key = GPT_SECRETS
 
 # Store the initial value of widgets in session state
 if "visibility" not in st.session_state:
