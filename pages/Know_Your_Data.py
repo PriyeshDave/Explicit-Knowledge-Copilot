@@ -322,7 +322,7 @@ with st.expander("🔎 Quick Search: Unravel Employee-Asset Links"):
                         node['color'] = 'purple'
 
                 # Save and display the graph
-                path = "employee_asset_filtered_graph.html"
+                path = "./DAG/employee_asset_filtered_graph.html"
                 net.save_graph(path)
                 st.write(f"Knowledge graph for {selected_employee}:")
                 st.components.v1.html(open(path, 'r', encoding='utf-8').read(), height=750)
@@ -364,7 +364,7 @@ with st.expander("🔎 Quick Search: Unravel Employee-Asset Links"):
                         node['color'] = 'purple'
 
                 # Save and display the graph
-                path = "asset_employee_filtered_graph.html"
+                path = "./DAG/asset_employee_filtered_graph.html"
                 net.save_graph(path)
                 st.write(f"Knowledge graph for Asset ID {selected_asset}:")
                 st.components.v1.html(open(path, 'r', encoding='utf-8').read(), height=750)
