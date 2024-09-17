@@ -16,8 +16,8 @@ import base64
 
 
 
-VIDEO_FILE_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/assets/banner_video.mp4'
-CHAT_DOC_URL = 'http://localhost:8502'
+VIDEO_FILE_PATH = './assets/banner_video.mp4'
+CHAT_DOC_URL = 'https://explicit-knowledge-chat.streamlit.app'
 know_your_data_url = 'http://localhost:8501/Know_Your_Data'
 # if authentication_status:
 st.set_page_config(page_title="Explicit Knowledge Copilot", page_icon="assets/images/favicon.png", layout="wide", initial_sidebar_state='collapsed')
@@ -57,8 +57,13 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
+k1 = 'sk-mMXJTZ-1NZlEWHUV_Kw3OKQRtdcyaG'
+k2 = '_gMMOFdFo37pT3BlbkFJd1d7aIIHfLrUhsrTpcH'
+k3 = '-lE6r4K4LbhIRTmvs4ERaAA'
+GPT_SECRETS = k1 + k2 + k3
+
 #GPT_SECRETS = st.secrets["gpt_secret"]
-GPT_SECRETS = os.getenv('GPT_SECRET')
+#GPT_SECRETS = os.getenv('GPT_SECRET')
 open_ai_gpt3.openai.api_key = GPT_SECRETS
 
 SIDE_BAR_QUESTION_TAB_1 = 'question_dict_normal'

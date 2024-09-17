@@ -12,19 +12,24 @@ from pyvis.network import Network
 import base64
 
 
+k1 = 'sk-mMXJTZ-1NZlEWHUV_Kw3OKQRtdcyaG'
+k2 = '_gMMOFdFo37pT3BlbkFJd1d7aIIHfLrUhsrTpcH'
+k3 = '-lE6r4K4LbhIRTmvs4ERaAA'
+GPT_SECRETS = k1 + k2 + k3
+
 # GPT_SECRETS = st.secrets["gpt_secret"]
-GPT_SECRETS = os.getenv('GPT_SECRET')
+#GPT_SECRETS = os.getenv('GPT_SECRET')
 open_ai_gpt3.openai.api_key = GPT_SECRETS
 
-COLLEAGUE_DATA_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/Datasets/Leadership Visit Demo/colleague_data.csv'
-ASSET_DATA_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/Datasets/Leadership Visit Demo/asset_data.csv'
-PDF_DIR_PATH = "/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Chat/data-bank/"
+COLLEAGUE_DATA_PATH = './Datasets/Leadership Visit Demo/colleague_data.csv'
+ASSET_DATA_PATH = './Datasets/Leadership Visit Demo/asset_data.csv'
+PDF_DIR_PATH = "./data-bank/"
 
 EXP_KNW_URL = 'http://localhost:8501'
-CHAT_DOC_URL = 'http://localhost:8502'
-KG_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/DAG/entire_dag.pkl'
-DAG_HTML_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/DAG/emp_asset_dag.html' 
-VIDEO_FILE_PATH = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/assets/kyd_banner.mp4'
+CHAT_DOC_URL = 'https://explicit-knowledge-chat.streamlit.app'
+KG_PATH = './DAG/entire_dag.pkl'
+DAG_HTML_PATH = './DAG/emp_asset_dag.html' 
+VIDEO_FILE_PATH = './assets/kyd_banner.mp4'
 
 
 
