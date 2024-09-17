@@ -17,8 +17,8 @@ import base64
 
 
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
-CHAT_DOC_URL = 'https://explicit-knowledge-chat.streamlit.app'
-know_your_data_url = 'http://localhost:8501/Know_Your_Data'
+EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
+KNOW_YOUR_DATA_URL = 'https://explicit-knowledge-copilot.streamlit.app/Know_Your_Data'
 # if authentication_status:
 st.set_page_config(page_title="Explicit Knowledge Copilot", page_icon="assets/images/favicon.png", layout="wide", initial_sidebar_state='collapsed')
 st.markdown(f"""
@@ -36,10 +36,10 @@ st.markdown(f"""
 </style>
 <div class="top-right">
     <div class="button-container">
-        <a href="{know_your_data_url}" target="_blank">
+        <a href="{KNOW_YOUR_DATA_URL}" target="_blank">
             <button class="button"> Know Your Data </button>
         </a>
-        <a href="{CHAT_DOC_URL}" target="_blank">
+        <a href="{EXPLICIT_KNOWLEDGE_CHAT_URL}" target="_blank">
             <button class="button"> Smart Chat </button>
         </a>
     </div>

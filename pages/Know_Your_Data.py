@@ -25,8 +25,8 @@ COLLEAGUE_DATA_PATH = './Datasets/Leadership Visit Demo/colleague_data.csv'
 ASSET_DATA_PATH = './Datasets/Leadership Visit Demo/asset_data.csv'
 PDF_DIR_PATH = "./data-bank/"
 
-EXP_KNW_URL = 'http://localhost:8501'
-CHAT_DOC_URL = 'https://explicit-knowledge-chat.streamlit.app'
+EXPLICIT_KNOWLEDGE_COPILOT_URL = 'https://explicit-knowledge-copilot.streamlit.app'
+EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
 KG_PATH = './DAG/entire_dag.pkl'
 DAG_HTML_PATH = './DAG/emp_asset_dag.html' 
 VIDEO_FILE_PATH = './assets/kyd_banner.mp4'
@@ -50,10 +50,10 @@ st.markdown(f"""
     </style>
     <div class="top-right">
         <div class="button-container">
-            <a href="{EXP_KNW_URL}" target="_blank">
+            <a href="{EXPLICIT_KNOWLEDGE_COPILOT_URL}" target="_blank">
                 <button class="button"> Explicit Knowledge Copilot </button>
             </a>
-            <a href="{CHAT_DOC_URL}" target="_blank">
+            <a href="{EXPLICIT_KNOWLEDGE_CHAT_URL}" target="_blank">
                 <button class="button"> Smart Chat </button>
             </a>
         </div>
