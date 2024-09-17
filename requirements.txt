@@ -28,7 +28,7 @@ cycler==0.12.1
 debugpy==1.8.5
 decorator==5.1.1
 duckdb==0.7.1
-distutils
+distutils-pytest
 entrypoints==0.4
 etelemetry==0.3.1
 exceptiongroup==1.2.2
