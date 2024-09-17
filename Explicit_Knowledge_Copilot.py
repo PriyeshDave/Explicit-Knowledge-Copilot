@@ -598,8 +598,8 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
 ## Main Application
 #########################################################################################################################
 
-UPLOADED_FILE = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/Datasets/Leadership Visit Demo/colleague_data.csv'
-UPLOADED_FILE2 = '/Users/apple/Documents/Priyesh/Repositories/Explicit-Knowledge-Copilot/Datasets/Leadership Visit Demo/asset_data.csv'
+UPLOADED_FILE = './Datasets/Leadership Visit Demo/colleague_data.csv'
+UPLOADED_FILE2 = './Datasets/Leadership Visit Demo/asset_data.csv'
 
 if UPLOADED_FILE is not None and UPLOADED_FILE2 is not None:
     # Create a text element and let the reader know the data is loading.
