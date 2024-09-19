@@ -162,6 +162,7 @@ def generate_sql_gpt(new_question, _data_schema, _sample_data, _schema_data2, _s
         WHERE YEAR(date) = 2022
         <sql_end>
 
+
         Example Question: 
         Write me an  SQL script in duckDB language that can answer the following question: "How many employees are there with macbook air?". 
         Put the SQL script in the tag "<sql_start>"  and end with <sql_end> for easy regex extraction. 
@@ -176,6 +177,22 @@ def generate_sql_gpt(new_question, _data_schema, _sample_data, _schema_data2, _s
         JOIN DATA2 ON DATA.employee_id = DATA2.assigned_to
         WHERE DATA2.laptop_model = 'macbook air';
         <sql_end>
+
+
+        Example Question: 
+        Write me an  SQL script in duckDB language that can answer the following question: "what is the average age of employees in Technology department?". 
+        Put the SQL script in the tag "<sql_start>"  and end with <sql_end> for easy regex extraction. 
+        Please give column names after the transformation and select an appropriate number of columns so that we can create a visualization from it.
+        For bar chart, swarm plot, box plot, please make sure to include 3 columns.
+        Please convert all result to lower case.
+        
+        Answer: 
+        <sql_start>
+        SELECT AVG(age) as average_age
+        FROM DATA 
+        WHERE DATA.department = 'technology'
+        <sql_end>
+        
 
         Example Question: 
         Write me an  SQL script in duckDB language that can answer the following question: "How many employees were in year 2028 using macbook air?". 

@@ -12,9 +12,9 @@ from pyvis.network import Network
 import base64
 
 
-k1 = 'sk-mMXJTZ-1NZlEWHUV_Kw3OKQRtdcyaG'
-k2 = '_gMMOFdFo37pT3BlbkFJd1d7aIIHfLrUhsrTpcH'
-k3 = '-lE6r4K4LbhIRTmvs4ERaAA'
+k1 = 'sk-IM4Ae4gJyGA3bMXMCFAQm2CVzermmzfd_5QDk'
+k2 = '-VAgWT3BlbkFJuSVlSjts3iB6GpyPFleJad48j3f'
+k3 = '_RGubRWLfEKkk8A'
 GPT_SECRETS = k1 + k2 + k3
 
 # GPT_SECRETS = st.secrets["gpt_secret"]
@@ -25,8 +25,15 @@ COLLEAGUE_DATA_PATH = './Datasets/Leadership Visit Demo/colleague_data.csv'
 ASSET_DATA_PATH = './Datasets/Leadership Visit Demo/asset_data.csv'
 PDF_DIR_PATH = "./data-bank/"
 
-EXPLICIT_KNOWLEDGE_COPILOT_URL = 'https://explicit-knowledge-copilot.streamlit.app'
-EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
+
+prod_flag = False
+if prod_flag:
+    EXPLICIT_KNOWLEDGE_COPILOT_URL = 'https://explicit-knowledge-copilot.streamlit.app'
+    EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
+else:
+    EXPLICIT_KNOWLEDGE_COPILOT_URL = 'http://localhost:8501'
+    EXPLICIT_KNOWLEDGE_CHAT_URL = 'http://localhost:8502'
+
 KG_PATH = './DAG/entire_dag.pkl'
 DAG_HTML_PATH = './DAG/emp_asset_dag.html' 
 VIDEO_FILE_PATH = './assets/kyd_banner.mp4'
