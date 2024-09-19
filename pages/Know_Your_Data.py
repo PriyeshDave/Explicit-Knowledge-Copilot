@@ -26,7 +26,7 @@ ASSET_DATA_PATH = './Datasets/Leadership Visit Demo/asset_data.csv'
 PDF_DIR_PATH = "./data-bank/"
 
 
-prod_flag = False
+prod_flag = True
 if prod_flag:
     EXPLICIT_KNOWLEDGE_COPILOT_URL = 'https://explicit-knowledge-copilot.streamlit.app'
     EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
