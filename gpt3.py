@@ -290,14 +290,6 @@ def generate_sql_gpt(new_question, _data_schema, _sample_data, _schema_data2, _s
         Please give column names after the transformation and select an appropriate number of columns so that we can create a visualization from it.
         For bar chart, swarm plot, box plot, please make sure to include 3 columns.
         Please convert all result to lower case.
-
-        Note:
-        if the users asks some irrlevant question like:
-        1. how to cook.
-        2. how to bake
-        or any other irrelevant question.
-        In that case repsond that "The question asked is irrelevant" 
-        
         """
     
 
