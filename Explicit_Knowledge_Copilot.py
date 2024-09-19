@@ -11,11 +11,11 @@ import duckdb
 import plot
 import re
 import os
-from PIL import Image
+from PIL import Image 
 import base64
 
 
-prod_flag = True
+prod_flag = False
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
 
 if prod_flag:

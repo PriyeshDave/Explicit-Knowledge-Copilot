@@ -24,9 +24,9 @@ open_ai_gpt3.openai.api_key = GPT_SECRETS
 COLLEAGUE_DATA_PATH = './Datasets/Leadership Visit Demo/colleague_data.csv'
 ASSET_DATA_PATH = './Datasets/Leadership Visit Demo/asset_data.csv'
 PDF_DIR_PATH = "./data-bank/"
+ 
 
-
-prod_flag = True
+prod_flag = False
 if prod_flag:
     EXPLICIT_KNOWLEDGE_COPILOT_URL = 'https://explicit-knowledge-copilot.streamlit.app'
     EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
