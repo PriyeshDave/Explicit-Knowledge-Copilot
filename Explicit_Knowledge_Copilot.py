@@ -14,16 +14,17 @@ import os
 from PIL import Image 
 import base64
 
-
 prod_flag = True
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
-
 if prod_flag:
     EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
     KNOW_YOUR_DATA_URL = 'https://explicit-knowledge-copilot.streamlit.app/Know_Your_Data'
 else:
     EXPLICIT_KNOWLEDGE_CHAT_URL = 'http://localhost:8502'
     KNOW_YOUR_DATA_URL = 'http://localhost:8501/Know_Your_Data'
+
+OPENAI_API_KEY = st.secrets['api_keys']["OPENAI_API_KEY"]
+open_ai_gpt3.openai.api_key = OPENAI_API_KEY
 
 # if authentication_status:
 st.set_page_config(page_title="Explicit Knowledge Copilot", page_icon="assets/images/favicon.png", layout="wide", initial_sidebar_state='collapsed')
@@ -61,16 +62,6 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-k1 = 'sk-IM4Ae4gJyGA3bMXMCFAQm2CVzermmzfd_5QDk'
-k2 = '-VAgWT3BlbkFJuSVlSjts3iB6GpyPFleJad48j3f'
-k3 = '_RGubRWLfEKkk8A'
-
-GPT_SECRETS = k1 + k2 + k3
-
-#GPT_SECRETS = st.secrets["gpt_secret"]
-#GPT_SECRETS = os.getenv('GPT_SECRET')
-open_ai_gpt3.openai.api_key = GPT_SECRETS
 
 SIDE_BAR_QUESTION_TAB_1 = 'question_dict_normal'
 SIDE_BAR_GENERATED_DATASET_INPUT_1 = 'generated_normal'

@@ -12,18 +12,15 @@ from pyvis.network import Network
 import base64
 
 
-k1 = 'sk-IM4Ae4gJyGA3bMXMCFAQm2CVzermmzfd_5QDk'
-k2 = '-VAgWT3BlbkFJuSVlSjts3iB6GpyPFleJad48j3f'
-k3 = '_RGubRWLfEKkk8A'
-GPT_SECRETS = k1 + k2 + k3
-
-# GPT_SECRETS = st.secrets["gpt_secret"]
-#GPT_SECRETS = os.getenv('GPT_SECRET')
-open_ai_gpt3.openai.api_key = GPT_SECRETS
+OPENAI_API_KEY = st.secrets['api_keys']["OPENAI_API_KEY"]
+open_ai_gpt3.openai.api_key = OPENAI_API_KEY
 
 COLLEAGUE_DATA_PATH = './Datasets/Leadership Visit Demo/colleague_data.csv'
 ASSET_DATA_PATH = './Datasets/Leadership Visit Demo/asset_data.csv'
 PDF_DIR_PATH = "./data-bank/"
+KG_PATH = './DAG/entire_dag.pkl'
+DAG_HTML_PATH = './DAG/emp_asset_dag.html' 
+VIDEO_FILE_PATH = './assets/kyd_banner.mp4'
  
 
 prod_flag = True
@@ -33,12 +30,6 @@ if prod_flag:
 else:
     EXPLICIT_KNOWLEDGE_COPILOT_URL = 'http://localhost:8501'
     EXPLICIT_KNOWLEDGE_CHAT_URL = 'http://localhost:8502'
-
-KG_PATH = './DAG/entire_dag.pkl'
-DAG_HTML_PATH = './DAG/emp_asset_dag.html' 
-VIDEO_FILE_PATH = './assets/kyd_banner.mp4'
-
-
 
 st.set_page_config(page_icon="assets/images/favicon.png")
 
