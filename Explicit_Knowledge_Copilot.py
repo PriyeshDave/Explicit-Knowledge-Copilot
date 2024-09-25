@@ -433,6 +433,10 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
                                 resp = {
                                     "question": new_question,
                                     "chart_recommendation": None,
+                                    "title_recommendation": None,
+                                    "query_recommendation": None,
+                                    "x_recommendation": None,
+                                    "y_recommendation": None,
                                     "dataframe": dataframe_new,
                                     "hide_table": False,
                                     "hide_graph": True,
