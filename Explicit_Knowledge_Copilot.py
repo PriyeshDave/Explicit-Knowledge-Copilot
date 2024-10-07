@@ -13,9 +13,10 @@ import re
 import os
 from PIL import Image 
 import base64
-from utilities.sound_recorder import audio_feature, text_to_speech
 
 prod_flag = True
+audio_feature_flag = False
+
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
 if prod_flag:
     EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
@@ -710,16 +711,15 @@ if UPLOADED_FILE is not None and UPLOADED_FILE2 is not None:
             if st.button(sample_question_5):
                 question = sample_question_5.lower()
 
-        audio_feature_flag = st.checkbox('Use the audio feature instead?')
         if audio_feature_flag:
-            question = audio_feature()
+            from utilities.sound_recorder import input_audio
+            audio_feature_checkbox = st.checkbox('Use the audio feature instead?')
+            if audio_feature_checkbox:
+                question = input_audio()
 
         # Generate the ask question bar
         st.markdown("Type in your question below (Press Ctrl+Enter to key in question):")
         ask_new_question(question, schema_data, sample_data, schema_data2, sample_data2)
-
-        
-
 
 
     st.markdown(

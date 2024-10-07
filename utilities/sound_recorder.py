@@ -33,7 +33,7 @@ def transcribe_audio(audio_file):
             return f"Could not request results from Google Speech Recognition service; {e}"
 
 
-def audio_feature():
+def input_audio():
     # Input for duration of recording
     # duration = st.slider("Recording duration (seconds)", 1, 10, 5)
     transcript = ''
@@ -62,17 +62,6 @@ def audio_feature():
     #     with open(audio_file, "rb") as file:
     #         st.download_button(label="Download audio", data=file, file_name=os.path.basename(audio_file), mime="audio/wav")
 
-# def generate_speech(transcript, filename="speech_output.mp3"):
-#     tts = gTTS(text=transcript, lang='en')
-#     tts.save(filename)  # Save the speech to an mp3 file
-#     return filename
-
-# def text_to_speech(transcript):
-#     tts_audio_file = generate_speech(transcript)
-#     st.subheader("Transcript:")
-#     st.write(transcript)
-#     st.subheader("Text-to-Speech (Bot Voice):")
-#     #st.audio(tts_audio_file, format='audio/mp3')
 
 def text_to_speech(transcript, output_path="speech_output.mp3"):
     tts = gTTS(text=transcript, lang='en')
