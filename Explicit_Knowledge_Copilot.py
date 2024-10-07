@@ -13,6 +13,7 @@ import re
 import os
 from PIL import Image 
 import base64
+from utilities.sound_recorder import audio_feature, text_to_speech
 
 prod_flag = True
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
@@ -366,12 +367,14 @@ def show_dashboard(session_all_result, index_question_counter):
             index_question_counter+=1
 
 def show_messages(_index_generated, _index_past, _i, is_result):
-
+    textual_insights = ''
     with st.expander(f"{str(_i+1)}.{st.session_state[_index_past][_i]}"):
         if is_result:
             message((st.session_state[_index_generated][_i]).strip(), key=str(_i), avatar_style="thumbs", seed="Mimi")
+            textual_insights = st.session_state[_index_generated][_i]
         else:
             message("The query produce no result, please rephrase the question.", key=str(_i), avatar_style="thumbs", seed="Mimi")
+            textual_insights = "The query produce no result, please rephrase the question."
         message(st.session_state[_index_past][_i], is_user=True, key=str(_i) + '_user', avatar_style="thumbs", seed="Mia")
         key_build = str(st.session_state[_index_past][_i] + '_toggle_graph')
         index_q = next((index for (index, d) in enumerate(st.session_state["all_result"]) if d["question"] == st.session_state[_index_past][_i]), None)
@@ -383,6 +386,7 @@ def show_messages(_index_generated, _index_past, _i, is_result):
             st.session_state["all_result"][index_q]['hide_graph'] = True
         else:
             st.session_state["all_result"][index_q]['hide_graph'] = False
+        return textual_insights
 
 def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sample_data2):
     key_type = 'normal'
@@ -401,7 +405,7 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
     submit_button = form.form_submit_button(label=submit_label)
 
     chat_col, dashboard_col, tab_col = st.tabs(["Textual View", "Graphical View", "Tabular View"])
-
+    textual_insights = ''
     with st.spinner("Analysing data..."):
         if (submit_button) or (sample_question):
             if new_question:
@@ -411,9 +415,7 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
                         if new_question == key:
 
                             output, chart_recommendation, x_recommendation, y_recommendation, hue_recommendation, title_recommendation, query_recommendation, dataframe_new = query_text(key, 
-                                                                                                                                                                                        schema_data, sample_data,
-                                                                                                                                                                                        schema_data2, sample_data2)
-
+                                                                                                                                                                                        schema_data, sample_data,                                                                                                                                                schema_data2, sample_data2)
                             if chart_recommendation != None:
                                 resp = {
                                     "question": new_question,
@@ -449,7 +451,6 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
                             output_template = f"""
                             {output} \n\n Query:\n{query_recommendation}
                             """
-
                             st.session_state[index_generated].append(output_template)
 
 
@@ -485,11 +486,12 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
                                         # if questions does not produce result,
                                         # only show the first question and hide the rest
                                         show_messages(index_generated, index_past, i, False)
+                                        textual_insights = "The query produce no result, please rephrase the question."
 
                                 else:
                                     # Show the lastest 5 message
                                     # if questions have result print them out
-                                    show_messages(index_generated, index_past, i, True)
+                                    textual_insights = show_messages(index_generated, index_past, i, True)
                                     counter_message_limit += 1
                             except:
                                 pass
@@ -592,6 +594,16 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
 
                                     st.markdown(f"<h4 style='text-align: left; color: black;'>Output Result: </h4>", unsafe_allow_html=True)
                                     st.dataframe(output_dataframe)
+
+    # if textual_insights != '':
+    #     st.subheader("Text-to-Speech (Bot Voice):")
+    #     tts_audio_file = text_to_speech(textual_insights)
+    #     st.subheader("Text-to-Speech (Bot Voice):")
+    #     st.warning(tts_audio_file)
+    #     with open(tts_audio_file, 'rb') as audio_file:
+    #         audio_bytes = audio_file.read()
+    #         st.audio(audio_bytes, format='audio/mp3')
+        
                                     
 
 
@@ -698,9 +710,17 @@ if UPLOADED_FILE is not None and UPLOADED_FILE2 is not None:
             if st.button(sample_question_5):
                 question = sample_question_5.lower()
 
+        audio_feature_flag = st.checkbox('Use the audio feature instead?')
+        if audio_feature_flag:
+            question = audio_feature()
+
         # Generate the ask question bar
         st.markdown("Type in your question below (Press Ctrl+Enter to key in question):")
         ask_new_question(question, schema_data, sample_data, schema_data2, sample_data2)
+
+        
+
+
 
     st.markdown(
         """
