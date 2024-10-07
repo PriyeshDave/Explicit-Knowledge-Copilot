@@ -145,6 +145,7 @@ watchdog==3.0.0
 wcwidth==0.2.13
 yarl==1.8.2
 zipp==3.15.0
+pyaudio==0.2.14
 sounddevice==0.5.0
 wavio==0.0.9
 gtts==2.5.3
