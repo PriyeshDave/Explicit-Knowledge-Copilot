@@ -15,7 +15,7 @@ from PIL import Image
 import base64
 
 prod_flag = True
-audio_feature_flag = False
+audio_feature_flag = True
 
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
 if prod_flag:
