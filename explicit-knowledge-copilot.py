@@ -13,8 +13,10 @@ import re
 import os
 from PIL import Image 
 import base64
+from utilities.sound_util import text_to_speech
+from gpt3 import get_textual_insights_summary
 
-prod_flag = True
+prod_flag = False
 audio_feature_flag = True
 
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
@@ -29,32 +31,35 @@ OPENAI_API_KEY = st.secrets['api_keys']["OPENAI_API_KEY"]
 open_ai_gpt3.openai.api_key = OPENAI_API_KEY
 
 # if authentication_status:
-st.set_page_config(page_title="Explicit Knowledge Copilot", page_icon="assets/images/favicon.png", layout="wide", initial_sidebar_state='collapsed')
-st.markdown(f"""
-<style>
-.top-right {{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: flex;
-    gap: 10px;
-}}
-.button-container button {{
-    margin-right: 10px;
-}}
-</style>
-<div class="top-right">
-    <div class="button-container">
-        <a href="{KNOW_YOUR_DATA_URL}" target="_blank">
-            <button class="button"> Know Your Data </button>
-        </a>
-        <a href="{EXPLICIT_KNOWLEDGE_CHAT_URL}" target="_blank">
-            <button class="button"> Smart Chat </button>
-        </a>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-st.markdown('##')
+st.set_page_config(page_title="Explicit Knowledge Copilot", 
+                   page_icon="assets/images/favicon.png", 
+                   layout="wide", 
+                   initial_sidebar_state='collapsed')
+# st.markdown(f"""
+# <style>
+# .top-right {{
+#     position: absolute;
+#     top: 10px;
+#     right: 10px;
+#     display: flex;    
+#     gap: 10px;
+# }}
+# .button-container button {{
+#     margin-right: 10px;
+# }}
+# </style>
+# <div class="top-right">
+#     <div class="button-container">
+#         <a href="{KNOW_YOUR_DATA_URL}" target="_blank">
+#             <button class="button"> Know Your Data </button>
+#         </a>
+#         <a href="{EXPLICIT_KNOWLEDGE_CHAT_URL}" target="_blank">
+#             <button class="button"> Smart Chat </button>
+#         </a>
+#     </div>
+# </div>
+# """, unsafe_allow_html=True)
+#st.markdown('##')
 
 col_main_1, col_main_2, col_main_3 = st.columns([1,5,1])
 
@@ -596,17 +601,21 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
                                     st.markdown(f"<h4 style='text-align: left; color: black;'>Output Result: </h4>", unsafe_allow_html=True)
                                     st.dataframe(output_dataframe)
 
-    # if textual_insights != '':
-    #     st.subheader("Text-to-Speech (Bot Voice):")
-    #     tts_audio_file = text_to_speech(textual_insights)
-    #     st.subheader("Text-to-Speech (Bot Voice):")
-    #     st.warning(tts_audio_file)
-    #     with open(tts_audio_file, 'rb') as audio_file:
-    #         audio_bytes = audio_file.read()
-    #         st.audio(audio_bytes, format='audio/mp3')
-        
-                                    
+    if textual_insights != '':
+        textual_insights_cleaned = textual_insights.split('Query')[0].strip()
+        textual_insights_summary = get_textual_insights_summary(textual_insights_cleaned)
+        st.subheader("Text-to-Speech (Bot Voice):")
+        st.success(textual_insights_summary)
+        audio_file_path = text_to_speech(textual_insights_summary)
+        try:
+            audio_file = open(audio_file_path, 'rb')
+            audio_bytes = audio_file.read()
+            st.audio(audio_bytes, format='audio/wav')
+            audio_file.close()
+        except Exception as e:
+            st.warning(e)
 
+        
 
 #########################################################################################################################
 ## Main Application
@@ -712,7 +721,7 @@ if UPLOADED_FILE is not None and UPLOADED_FILE2 is not None:
                 question = sample_question_5.lower()
 
         if audio_feature_flag:
-            from utilities.sound_recorder import input_audio
+            from utilities.sound_util import input_audio
             audio_feature_checkbox = st.checkbox('Use the audio feature instead?')
             if audio_feature_checkbox:
                 question = input_audio()

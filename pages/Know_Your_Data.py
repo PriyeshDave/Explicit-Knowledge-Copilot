@@ -23,7 +23,7 @@ DAG_HTML_PATH = './DAG/emp_asset_dag.html'
 VIDEO_FILE_PATH = './assets/kyd_banner.mp4'
  
 
-prod_flag = True
+prod_flag = False
 if prod_flag:
     EXPLICIT_KNOWLEDGE_COPILOT_URL = 'https://explicit-knowledge-copilot.streamlit.app'
     EXPLICIT_KNOWLEDGE_CHAT_URL = 'https://explicit-knowledge-chat.streamlit.app'
@@ -33,31 +33,31 @@ else:
 
 st.set_page_config(page_icon="assets/images/favicon.png")
 
-st.markdown(f"""
-    <style>
-    .top-right {{
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        display: flex;
-        gap: 10px;
-    }}
-    .button-container button {{
-        margin-right: 10px;
-    }}
-    </style>
-    <div class="top-right">
-        <div class="button-container">
-            <a href="{EXPLICIT_KNOWLEDGE_COPILOT_URL}" target="_blank">
-                <button class="button"> Explicit Knowledge Copilot </button>
-            </a>
-            <a href="{EXPLICIT_KNOWLEDGE_CHAT_URL}" target="_blank">
-                <button class="button"> Smart Chat </button>
-            </a>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-st.markdown('##')
+# st.markdown(f"""
+#     <style>
+#     .top-right {{
+#         position: absolute;
+#         top: 10px;
+#         right: 10px;
+#         display: flex;
+#         gap: 10px;
+#     }}
+#     .button-container button {{
+#         margin-right: 10px;
+#     }}
+#     </style>
+#     <div class="top-right">
+#         <div class="button-container">
+#             <a href="{EXPLICIT_KNOWLEDGE_COPILOT_URL}" target="_blank">
+#                 <button class="button"> Explicit Knowledge Copilot </button>
+#             </a>
+#             <a href="{EXPLICIT_KNOWLEDGE_CHAT_URL}" target="_blank">
+#                 <button class="button"> Smart Chat </button>
+#             </a>
+#         </div>
+#     </div>
+#     """, unsafe_allow_html=True)
+#st.markdown('##')
 
 col_main_1, col_main_2, col_main_3 = st.columns([1,4,1])
 

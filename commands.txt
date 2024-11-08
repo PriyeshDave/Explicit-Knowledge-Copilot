@@ -1,0 +1,93 @@
+# BUILD THE DOCKER IMAGE
+docker build -t explicit-knowledge-copilot-image:v1.0 .
+
+# RUNNING THE DOCKER IMAGE INSIDE THE CONTAINER
+docker run -d --name gen-ai-container -p 8080:8080 explicit-knowledge-copilot-image:v1.0
+docker run -d --name gen-ai-container -p 8501:8501 explicit-knowledge-copilot-image:v1.0
+
+
+
+# AUTHENTICATION
+>> gcloud auth login
+>> gcloud auth list
+>> gcloud config set account genaiwork6@gmail.com
+
+
+# SETTING ROLES AND PERMISSIONS
+gcloud projects add-iam-policy-binding explicit-knowledge-copilot \
+    --member="user:genaiwork6@gmail.com" \
+    --role="roles/run.admin"
+
+gcloud projects add-iam-policy-binding explicit-knowledge-copilot \
+    --member="user:genaiwork6@gmail.com" \
+    --role="roles/storage.admin"
+
+gcloud projects add-iam-policy-binding explicit-knowledge-copilot \
+    --member="user:genaiwork6@gmail.com" \
+    --role="roles/iam.serviceAccountUser"
+    
+
+# CREATING THE CLOUD IMAGE TAG
+docker tag explicit-knowledge-copilot-image:v1.0 gcr.io/explicit-knowledge-copilot/explicit-knowledge-copilot-image:v1.0
+
+# RE-IMAGING THE BUILD USING LINUX/AMD64 PLATFORM
+docker build --platform linux/amd64 -t gcr.io/explicit-knowledge-copilot/explicit-knowledge-copilot-image:v1.0 .
+
+# PUSHING THE DOCKER IMAGE ON GCP
+docker push gcr.io/explicit-knowledge-copilot/explicit-knowledge-copilot-image:v1.0
+
+# RUNNING THE DOCKER ON CLOUD RUN
+gcloud run deploy --image gcr.io/explicit-knowledge-copilot/explicit-knowledge-copilot-image:v1.0 --platform managed
+                                                OR
+gcloud run deploy explicit-knowledge-copilot-app \
+    --image gcr.io/explicit-knowledge-copilot/explicit-knowledge-copilot-image:v1.0 \
+    --platform managed \
+    --region us-central1 \
+    --allow-unauthenticated
+                                                OR
+gcloud run deploy explicit-knowledge-copilot-app \
+    --image gcr.io/explicit-knowledge-copilot/explicit-knowledge-copilot-image:v1.0 \
+    --platform managed \
+    --region us-central1 \
+    --no-allow-unauthenticated
+
+
+# GIVING PERMISSION TO AUTHORISED USERS 
+>> gcloud run services add-iam-policy-binding explicit-knowledge-copilot-app \
+--member="user:priyeshdave90@gmail.com" \
+--role="roles/run.invoker"
+
+
+
+
+# Commands to configure docker to gloud
+1. Authenticate Docker with GCR:
+Ensure you're authenticated with Google Cloud and GCR before pushing the image.
+>> gcloud auth configure-docker
+
+2. Verify Google Cloud Project Setup:
+Make sure you are working in the correct project where the GCR repository exists. Verify your project by running:
+>> gcloud config get-value project
+if this does not give your project-id to use
+Run:
+>> gcloud config set project explicit-knowledge-copilot
+Confirm:
+>> gcloud config get-value project
+This should give "explicit-knowledge-copilot"
+
+3. Enable Required Services:
+Ensure that the Google Container Registry API is enabled for your project:
+>> gcloud services enable containerregistry.googleapis.com
+
+
+4. Check Permissions:
+Make sure your account has the appropriate permissions to push images to GCR. 
+The account you're using should have the Storage Admin or Storage Object Admin role assigned.
+>> gcloud projects add-iam-policy-binding explicit-knowledge-copilot \
+    --member="user:genaiwork6@gmail.com" \
+    --role="roles/storage.admin"
+
+>> gcloud projects add-iam-policy-binding explicit-knowledge-copilot \
+    --member="user:genaiwork6@gmail.com" \
+    --role="roles/storage.objectAdmin"
+

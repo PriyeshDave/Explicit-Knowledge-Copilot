@@ -574,6 +574,22 @@ def explain_result(query_recommendation, new_question, dataframe_new):
     return response
 
 
+
+def get_textual_insights_summary(textual_insights):
+    response = openai.ChatCompletion.create(
+        model="gpt-4",  # Or "gpt-3.5-turbo" if you're using GPT-3.5
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant who summarizes text."},
+            {"role": "user", "content": f"Summarize the following insights: {textual_insights}"}
+        ],
+        max_tokens=200 
+    )
+    summary = response['choices'][0]['message']['content']
+    return summary
+
+
+
+
 # def recursive_summarizer_main(response, list_of_response, new_question):
 #     if len(response) < 2:
 #         return response[0]

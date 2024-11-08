@@ -7,13 +7,13 @@ import os
 from gtts import gTTS
 
 # Function to record audio
-def record_audio(duration=10, fs=44100):
+def record_audio(duration=6, fs=44100):
     st.write(f"Recording for {duration} seconds...")
     audio = sd.rec(int(duration * fs), samplerate=fs, channels=1)
     sd.wait()  # Wait until recording is finished
     return audio, fs
 
-# Save audio to a temporary file
+# Save audio to a temporary file 
 def save_audio(audio, fs):
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".wav")
     wavio.write(temp_file.name, audio, fs, sampwidth=2)
@@ -42,7 +42,7 @@ def input_audio():
 
     # Record button
     if start_btn:
-        audio, fs = record_audio(duration=10)
+        audio, fs = record_audio(duration=6)
         audio_file = save_audio(audio, fs)
 
         # Play the audio in the Streamlit app
@@ -51,8 +51,8 @@ def input_audio():
 
         # Transcribe the audio
         transcript = transcribe_audio(audio_file)
-        st.subheader("Transcript:")
-        st.success(transcript)  # Display the transcription
+        # st.subheader("Transcript:")
+        # st.success(transcript)  # Display the transcription
     
     if transcript != '':
         return transcript.lower()
@@ -63,7 +63,7 @@ def input_audio():
     #         st.download_button(label="Download audio", data=file, file_name=os.path.basename(audio_file), mime="audio/wav")
 
 
-def text_to_speech(transcript, output_path="speech_output.mp3"):
+def text_to_speech(transcript, output_path="./outputs/sound/text_to_speech.wav"):
     tts = gTTS(text=transcript, lang='en')
-    tts.save(output_path)  # Save the speech to an mp3 file
+    tts.save(output_path)
     return output_path
