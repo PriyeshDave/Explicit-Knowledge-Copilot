@@ -15,7 +15,6 @@ from PIL import Image
 import base64
 
 prod_flag = True
-audio_feature_flag = True
 
 VIDEO_FILE_PATH = './assets/banner_video.mp4'
 if prod_flag:
@@ -596,20 +595,9 @@ def ask_new_question(sample_question, schema_data, sample_data, schema_data2, sa
                                     st.markdown(f"<h4 style='text-align: left; color: black;'>Output Result: </h4>", unsafe_allow_html=True)
                                     st.dataframe(output_dataframe)
 
-    # if textual_insights != '':
-    #     st.subheader("Text-to-Speech (Bot Voice):")
-    #     tts_audio_file = text_to_speech(textual_insights)
-    #     st.subheader("Text-to-Speech (Bot Voice):")
-    #     st.warning(tts_audio_file)
-    #     with open(tts_audio_file, 'rb') as audio_file:
-    #         audio_bytes = audio_file.read()
-    #         st.audio(audio_bytes, format='audio/mp3')
-        
-                                    
-
 
 #########################################################################################################################
-## Main Application
+##Main Application
 #########################################################################################################################
 
 UPLOADED_FILE = './Datasets/Leadership Visit Demo/colleague_data.csv'
@@ -710,12 +698,6 @@ if UPLOADED_FILE is not None and UPLOADED_FILE2 is not None:
         with col5:
             if st.button(sample_question_5):
                 question = sample_question_5.lower()
-
-        if audio_feature_flag:
-            from utilities.sound_recorder import input_audio
-            audio_feature_checkbox = st.checkbox('Use the audio feature instead?')
-            if audio_feature_checkbox:
-                question = input_audio()
 
         # Generate the ask question bar
         st.markdown("Type in your question below (Press Ctrl+Enter to key in question):")
